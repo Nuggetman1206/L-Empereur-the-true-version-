@@ -1,0 +1,105 @@
+﻿l_english: 
+ #RK UKRAINE
+ brutally_oppress_resistance:0 "Brutally Oppress the Resistance"
+ brutally_oppress_resistance_desc:0 "Due to the nature of how the Reichskommissariat was formed, a plethora of resistance groups have been fighting against us from the beginning. Their existence should not be for any longer however, once we begin some effort into crushing these Untermensch groups, and the Ubermensch shall forever reign in the fields of Ukraine."
+
+ contact_nationalist_groups:0 "Contact Nationalist Groups"
+ contact_nationalist_groups_desc:0 "It turns out that crushing partisans was a harder task than the Ordnungpolizei had anticipated, and we have suffered some serious losses against the resistance. Recruiting various Ukrainian nationalist groups by promising them Ukraine to fight the resistance would be a win-win for us, plus, who says that we're going to keep that promise?"
+
+ destroy_partisan_groups:0 "Destroy Partisan Groups"
+ destroy_partisan_groups_desc:0 "Via lying and war crimes, we have almost crushed all resistance in Ukraine, and all that is left is various insurgent groups in the countryside. The Einsatzgruppen will complete the final sweeping up of resistance, and Ukraine shall become the breadbasket of the Reich."
+
+ encourage_cooperation:0 "Encourage Cooperation"
+ encourage_cooperation_desc:0 "Despite nominally being a German ruled state, we are forced to encourge cooperation with the native Ukrainians, if we ever wish for a stable and orderly realm for the Fatherland."
+
+ ukrainian_volunteer_force:0 "Ukrainian Volunteer Force"
+ ukrainian_volunteer_force_desc:0 "The war on the east has exhausted the Reich's Aryan population, and the remainder of Germany's children is being sent to the bulwark against Judeo-Bolshevikism. We should proceed to recruit native Ukrainians to join the security force, via the connections we have to various nationalist groups."
+
+ request_guns:0 "Request Guns"
+ request_guns_desc:0 "For us to effectively keep partisans at bay, we require arms, and we lack the capabilities currently to locally produce them. Germany will be willing to assist us with this issue, at a cost.
+
+ german_blueprints:0 "German Blueprints"
+
+ local_arms_procurment:0 "Local Arms Procurment"
+
+ a_new_army:0 "A New Army"
+
+ establish_a_research_department:0 "Establish a Research Department"
+ 
+ department_of_education:0 "Department of Education"
+
+ appoint_a_reichskommissar:0 "Appoint a Reichskommissar"
+
+ economic_development_and_exploitation:0 "Economic Development and Exploitation"
+
+ german_industrial_and_farm_workers:0 "German Industrial and Farm Workers"
+
+ expand_ukrainian_infrastructure:0 "Expand Ukrainian Infrastructure"
+
+ military_industrial_expansion:0 "Military Industrial Expansion"
+
+ industrial_expansion_phase1:0 "Industrial Expansion - Phase 1"
+ 
+ ukrainian_industry_and_farm_workers:0 "Ukrainian Industrial and Farm Workers"
+
+ wartime_measures:0 "Wartime Measures"
+
+ civilian_industrial_expansion:0 "Civilian Industrial Expansion"
+
+ industrial_expansion_phase2:0 "Industrial Expansion - Phase 2"
+
+ a_german_administration:0 "A German Administration"
+
+ hitler_the_liberator:0 "Hitler The Liberator"
+
+ propaganda_effort:0 "Propaganda Effort"
+
+ mobilise_the_civilian_workforce:0 "Mobilise The Civilian Workforce"
+
+ gemeindwitschaften:0 "Gemeindswitschaften"
+
+ establish_kombines:0 "Establish Kombines"
+
+ RKU_autarky:0 "Autarky"
+
+ breadbasket_of_the_reich:0 "Breadbasket of the Reich"
+
+ industrial_expansion_phase3:0 "Industrial Expansion - Phase 3"
+
+ invite_german_investors:0 "Invite German Investors"
+
+ civil_and_criminal_justice:0 "Civil and Criminal Justice"
+
+ limited_religious_freedom:0 "Limited Religious Freedom"
+
+ volksdeutsche_special_rights:0 "Volksdeutsche Special Rights"
+
+ protect_the_volksdeutsche:0 "Protect the Volksdeutsche"
+
+ fall_of_the_soviet_union:0 "Fall of the Soviet Union"
+
+ mass_german_immgration:0 "Mass German Immigration"
+
+ integrate_ukrainian_land:0 "Integrate Ukrainian Land"
+
+ ### Germany ###
+ hitler_purge_speer:0 "Purged by Hitler"
+ hitler_purge_thalmann:0 "Purged by Hitler"
+ hitler_purge_canaris:0 "Purged by Hitler"
+ hitler_purge_1:0 "Purged by Hitler"
+ hitler_purge_2:0 "Purged by Hitler"
+ hitler_purge_3:0 "Purged by Hitler"
+ himmler_purge_5:0 "Purged by Himmler"
+ himmler_purge_4:0 "Purged by Himmler"
+ himmler_purge_3:0 "Purged by Himmler"
+ himmler_purge_2:0 "Purged by Himmler"
+ himmler_purge_1:0 "Purged by Himmler"
+ goering_purge_3:0 "Purged by Göring"
+ goering_purge_2:0 "Purged by Göring"
+ goering_purge_1:0 "Purged by Göring"
+ 
+ kurt_deluge_in_bohemia:0 "Kurt Daluege sent to Bohemia"
+ reinhard_heydrich_in_bohemia:0 "Reinhard Heydrich sent to Bohemia"
+ reinhard_heydrich_killed:0 "Reinhard Heydrich dead"
+ 
+ protectorate_bohemia_intergrated:0 "Bohemia and Morawia Integrated"
