@@ -1,0 +1,604 @@
+focus_tree = {
+	id = prussia-focus
+	continuous_focus_position = { x = 0 y = 1000 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GER
+		}
+	}
+	#Crack Down on the Unions
+	focus = {
+		id = GER_crack_down_on_the_unions
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 4
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_dealing_with_the_unions  }
+	}
+
+	#Review the Economy
+	focus = {
+		id = GER_review_the_economy
+		icon = GFX_focus_spa_no_compromise_on_carlist_ideals
+		x = 11
+		y = 0
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+	}
+
+	#Dealing with the Unions
+	focus = {
+		id = GER_dealing_with_the_unions
+		icon = GFX_focus_generic_military_academy
+		x = 7
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = GER_review_the_economy  }
+	}
+
+	#Negotiate with Union Leaders
+	focus = {
+		id = GER_negotiate_with_union_leaders
+		icon = GFX_focus_generic_navy_battleship2
+		x = 10
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = GER_dealing_with_the_unions  }
+		mutually_exclusive = { focus = GER_crack_down_on_the_unions  }
+	}
+
+	#Formulate Reasons for Arrest
+	focus = {
+		id = GER_formulate_reasons_for_arrest
+		icon = GFX_GER_formulate_reasons_for_arrest-276
+		x = 4
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_STABILITY
+		}
+		prerequisite = { focus = GER_crack_down_on_the_unions  }
+	}
+
+	#Arrest Union Leaders
+	focus = {
+		id = GER_arrest_union_leaders
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 2
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_formulate_reasons_for_arrest  }
+	}
+
+	#Outlaw Strikes
+	focus = {
+		id = GER_outlaw_strikes
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		x = 6
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_MANPOWER
+		}
+		prerequisite = { focus = GER_formulate_reasons_for_arrest  }
+	}
+
+	#Push for More Worker's Right's
+	focus = {
+		id = GER_push_for_more_workers_rights
+		icon = GFX_GER_push_for_more_workers_rights-156
+		x = 10
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_apease_unions  }
+	}
+
+	#Better Worker Conditions
+	focus = {
+		id = GER_better_worker_conditions
+		icon = GFX_goal_tripartite_pact
+		x = 8
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_push_for_more_workers_rights  }
+	}
+
+	#Higher Minimum Wage
+	focus = {
+		id = GER_higher_minimum_wage
+		icon = GFX_focus_generic_befriend_turkey
+		x = 12
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_push_for_more_workers_rights  }
+	}
+
+	#Establish the Ministry of Workers
+	focus = {
+		id = GER_establish_the_ministry_of_workers
+		icon = GFX_focus_spa_save_the_alcazar
+		x = 10
+		y = 8
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = GER_finding_a_middle_ground  focus = GER_persecute_unlawful_factory_ownders  }
+	}
+
+	#Finishing off Economic Reforms
+	focus = {
+		id = GER_finishing_off_economic_reforms
+		icon = GFX_focus_generic_industry_3
+		x = 18
+		y = 1
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_review_the_economy  }
+	}
+
+	#Public Employment Service
+	focus = {
+		id = GER_public_employment_service
+		icon = GFX_focus_generic_aluminum
+		x = 21
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_finishing_off_economic_reforms  }
+	}
+
+	#Instate Infrastructure Projects
+	focus = {
+		id = GER_instate_infrastructure_projects
+		icon = GFX_goal_generic_construct_infrastructure
+		x = 21
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_finishing_off_economic_reforms  }
+	}
+
+	#The Kaiser's Autobahn
+	focus = {
+		id = GER_the_kaisers_autobahn
+		icon = GFX_GER_the_kaisers_autobahn-382
+		x = 21
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_instate_infrastructure_projects  }
+	}
+
+	#Government Bail out of Krupp Inc.
+	focus = {
+		id = GER_government_bail_out_of_krupp_inc
+		icon = GFX_GER_government_bail_out_of_krupp_inc-104
+		x = 17
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_finishing_off_economic_reforms  }
+	}
+
+	#Schahct's Five Year Plan
+	focus = {
+		id = GER_schahcts_five_year_plan
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 15
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_finishing_off_economic_reforms  }
+	}
+
+	#Government Bail out of Reichswerke Inc.
+	focus = {
+		id = GER_government_bail_out_of_reichswerke_inc
+		icon = GFX_goal_generic_production2
+		x = 19
+		y = 2
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_finishing_off_economic_reforms  }
+		mutually_exclusive = { focus = GER_government_bail_out_of_krupp_inc  }
+	}
+
+	#Prussian National Railway
+	focus = {
+		id = GER_prussian_national_railway
+		icon = GFX_focus_generic_africa_infrastructure
+		x = 21
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_the_kaisers_autobahn  }
+	}
+
+	#Kickstart Civilian Industries
+	focus = {
+		id = GER_kickstart_civilian_industries
+		icon = GFX_GER_kickstart_civilian_industries-417
+		x = 15
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_promote_entrepreneurship  }
+	}
+
+	#Renew the Family's Legacy
+	focus = {
+		id = GER_renew_the_familys_legacy
+		icon = GFX_focus_eng_the_kings_party
+		x = 17
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_government_bail_out_of_krupp_inc  }
+	}
+
+	#Repurpose Krupp Factories
+	focus = {
+		id = GER_repurpose_krupp_factories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 17
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_renew_the_familys_legacy  }
+	}
+
+	#Repurpose Military Factories
+	focus = {
+		id = GER_repurpose_military_factories
+		icon = GFX_focus_generic_steel
+		x = 19
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_government_bail_out_of_reichswerke_inc  }
+	}
+
+	#Reichswerke's Civilian Contractors
+	focus = {
+		id = GER_reichswerkes_civilian_contractors
+		icon = GFX_focus_generic_the_giant_wakes
+		x = 19
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_repurpose_military_factories  }
+	}
+
+	#Promote Small Businesses
+	focus = {
+		id = GER_promote_small_businesses
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 15
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_kickstart_civilian_industries  }
+	}
+
+	#Promote Entrepreneurship
+	focus = {
+		id = GER_promote_entrepreneurship
+		icon = GFX_goal_generic_propaganda
+		x = 15
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_schahcts_five_year_plan  }
+	}
+
+	#Companies Rolling Back
+	focus = {
+		id = GER_companies_rolling_back
+		icon = GFX_GER_companies_rolling_back-254
+		x = 18
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_repurpose_krupp_factories  focus = GER_reichswerkes_civilian_contractors  }
+	}
+
+	#Recovering Economy
+	focus = {
+		id = GER_recovering_economy
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		x = 18
+		y = 9
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_negotiate_with_siemes  focus = GER_the_question_of_ig_farben  focus = GER_pressure_bmw  focus = GER_recall_opel_inc  }
+	}
+
+	#Higher Working Standards
+	focus = {
+		id = GER_higher_working_standards
+		icon = GFX_focus_generic_concessions
+		x = 8
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_better_worker_conditions  }
+	}
+
+	#Compensate for Injuries
+	focus = {
+		id = GER_compensate_for_injuries
+		icon = GFX_focus_generic_diplomatic_treaty
+		x = 12
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_higher_minimum_wage  }
+	}
+
+	#Apease Unions
+	focus = {
+		id = GER_apease_unions
+		icon = GFX_focus_generic_self_management
+		x = 10
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_negotiate_with_union_leaders  }
+	}
+
+	#Phase out the Unions
+	focus = {
+		id = GER_phase_out_the_unions
+		icon = GFX_goal_generic_political_pressure
+		x = 9
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_push_for_more_workers_rights  }
+	}
+
+	#Nationalize Worker Protections
+	focus = {
+		id = GER_nationalize_worker_protections
+		icon = GFX_focus_generic_support_the_left_right
+		x = 10
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_phase_out_the_unions  }
+	}
+
+	#Persecute Unlawful Factory Ownders
+	focus = {
+		id = GER_persecute_unlawful_factory_ownders
+		icon = GFX_goal_generic_position_armies
+		x = 9
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_nationalize_worker_protections  focus = GER_compensate_for_injuries  focus = GER_higher_working_standards  }
+	}
+
+	#Finding a Middle Ground
+	focus = {
+		id = GER_finding_a_middle_ground
+		icon = GFX_GER_finding_a_middle_ground-280
+		x = 11
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_nationalize_worker_protections  focus = GER_compensate_for_injuries  focus = GER_higher_working_standards  }
+		mutually_exclusive = { focus = GER_persecute_unlawful_factory_ownders  }
+	}
+
+	#Root out Any Resemblance of Communism
+	focus = {
+		id = GER_root_out_any_resemblance_of_communism
+		icon = GFX_goal_anti_comintern_pact
+		x = 2
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_arrest_union_leaders  }
+	}
+
+	#Appease Factory Owners
+	focus = {
+		id = GER_appease_factory_owners
+		icon = GFX_focus_eng_motion_of_no_confidence
+		x = 4
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_disobedience_is_treason  } prerequisite = { focus = GER_prussian_narrative_commission  } prerequisite = { focus = GER_root_out_any_resemblance_of_communism  }
+	}
+
+	#Disobedience is treason
+	focus = {
+		id = GER_disobedience_is_treason
+		icon = GFX_GER_disobedience_is_treason-59
+		x = 6
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_outlaw_strikes  }
+	}
+
+	#Prussian Narrative Commission
+	focus = {
+		id = GER_prussian_narrative_commission
+		icon = GFX_focus_ger_revive_kaiserreich
+		x = 4
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_formulate_propaganda_against_unions  }
+	}
+
+	#Raid Union Homes
+	focus = {
+		id = GER_raid_union_homes
+		icon = GFX_focus_hol_war_on_pacifism
+		x = 4
+		y = 3
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_crack_down_on_the_unions  }
+	}
+
+	#Formulate Propaganda against Unions
+	focus = {
+		id = GER_formulate_propaganda_against_unions
+		icon = GFX_focus_hol_the_foundations_of_defense
+		x = 4
+		y = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_formulate_reasons_for_arrest  }
+	}
+
+	#Establish the Preußische Geheimpolizei
+	focus = {
+		id = GER_establish_the_preussische_geheimpolizei
+		icon = GFX_focus_ger_oppose_hitler
+		x = 4
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_appease_factory_owners  }
+	}
+
+	#A Stabilized  Prussia
+	focus = {
+		id = GER_a_stabilized_prussia
+		icon = GFX_focus_spa_the_phalanx_ascendant
+		x = 7
+		y = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = GER_establish_the_preussische_geheimpolizei  focus = GER_establish_the_ministry_of_workers  }
+	}
+
+	#Full Economic Boom
+	focus = {
+		id = GER_full_economic_boom
+		icon = GFX_focus_usa_guarantee_the_american_dream
+		x = 13
+		y = 11
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_a_stabilized_prussia  } prerequisite = { focus = GER_recovering_economy  }
+	}
+
+	#Bring Back the Military Industry
+	focus = {
+		id = GER_bring_back_the_military_industry
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 18
+		y = 6
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_prussian_national_railway  } prerequisite = { focus = GER_promote_small_businesses  } prerequisite = { focus = GER_companies_rolling_back  }
+	}
+
+	#Recall Opel Inc.
+	focus = {
+		id = GER_recall_opel_inc
+		icon = GFX_goal_generic_army_motorized
+		x = 17
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_bring_back_the_military_industry  }
+		mutually_exclusive = { focus = GER_pressure_bmw  }
+	}
+
+	#Pressure BMW
+	focus = {
+		id = GER_pressure_bmw
+		icon = GFX_focus_hol_daf
+		x = 19
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_bring_back_the_military_industry  }
+	}
+
+	#The Question of IG Farben
+	focus = {
+		id = GER_the_question_of_ig_farben
+		icon = GFX_goal_generic_political_pressure
+		x = 15
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_bring_back_the_military_industry  }
+		mutually_exclusive = { focus = GER_recall_opel_inc  } mutually_exclusive = { focus = GER_pressure_bmw  }
+	}
+
+	#Negotiate with Siemes
+	focus = {
+		id = GER_negotiate_with_siemes
+		icon = GFX_goal_tripartite_pact
+		x = 21
+		y = 7
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = GER_bring_back_the_military_industry  }
+		mutually_exclusive = { focus = GER_recall_opel_inc  } mutually_exclusive = { focus = GER_pressure_bmw  } mutually_exclusive = { focus = GER_the_question_of_ig_farben  }
+	}
+
+}
