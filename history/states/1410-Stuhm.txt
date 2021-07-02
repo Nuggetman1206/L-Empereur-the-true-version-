@@ -7,8 +7,8 @@ state={
 		victory_points = {
 			13878 1 
 		}	
-		owner = GER
-		controller = GER
+		owner = PRE
+		controller = PRE
 		buildings = {
 			infrastructure = 6
 

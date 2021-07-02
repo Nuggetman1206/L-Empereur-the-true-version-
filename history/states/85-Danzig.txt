@@ -4,7 +4,7 @@ state={
 	name="STATE_85"
 
 	history={
-		owner = DAN
+		owner = PRE
 		victory_points = {
 			362 10 
 		}
@@ -22,6 +22,7 @@ state={
 		}
 		add_core_of = DAN
 		add_core_of = POL
+                add_core_of = PRE
 		1938.3.12 = {
 			add_claim_by = GER
 

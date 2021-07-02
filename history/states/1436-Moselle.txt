@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = FRA
+		owner = RHI
 		victory_points = {
 			3629 3 
 		}
@@ -21,30 +21,31 @@ state={
 			infrastructure = 7
 			industrial_complex = 1
 			9559 = {
-				bunker = 10
+				bunker = 1
 
 			}
 			3629 = {
-				bunker = 10
+				bunker = 2
 
 			}
 			13886 = {
-				bunker = 10
+				bunker = 3
 
 			}
 			13887 = {
-				bunker = 10
+				bunker = 1
 
 			}
 			13888 = {
-				bunker = 10
+				bunker = 2
 
 			}
-			anti_air_building = 5
-			air_base = 5
+			anti_air_building = 1
+			air_base = 2
 
 		}
 		add_core_of = FRA
+                add_core_of = RHI
 		1939.1.1 = {
 			buildings = {
 				industrial_complex = 2

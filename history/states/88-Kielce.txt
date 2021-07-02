@@ -8,7 +8,7 @@ state={
 	}
 
 	history={
-		owner = POL
+		owner = GAL
 		victory_points = {
 			442 3 
 		}
@@ -20,7 +20,7 @@ state={
 		}
 		buildings = {
 			infrastructure = 6
-			arms_factory = 1
+			arms_factory = 4
 			industrial_complex = 3
 			air_base = 4
 

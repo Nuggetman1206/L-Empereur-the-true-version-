@@ -3,9 +3,11 @@ state={
 	name="STATE_800"
 
 	history={
-		owner = GER
+		owner = BAY
 		buildings = {
 			infrastructure = 6
+                        industrial_complex = 2
+                        arms_factory = 2
 
 		}
 		add_core_of = GER
@@ -22,7 +24,7 @@ state={
 	provinces={
 		6725 9515 9681 
 	}
-	manpower=30120
+	manpower=205089
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

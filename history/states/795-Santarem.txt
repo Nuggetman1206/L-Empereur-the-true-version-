@@ -3,7 +3,7 @@ state={	#Leipzig
 	name="STATE_795"
 
 	history={
-		owner = GER
+		owner = PRE
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -15,6 +15,7 @@ state={	#Leipzig
 		}
 		add_core_of = GER
 		add_core_of = SAX
+                add_core_of = PRE
 		1939.1.1 = {
 			buildings = {
 				arms_factory = 2
