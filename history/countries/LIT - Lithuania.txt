@@ -86,7 +86,7 @@ set_popularities = {
 		ruling_party = neutrality
 		last_election = "1936.6.14"
 		election_frequency = 49
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -106,9 +106,9 @@ set_popularities = {
 	1440 = { set_state_flag = lithuania_can_core }
 	
 create_country_leader = {
-	name = "Antanas Smetona"
+	name = "Frederick Viktor"
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "GFX_Portrait_lithuania_antanas_smetona"
+	picture = "dehman.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
