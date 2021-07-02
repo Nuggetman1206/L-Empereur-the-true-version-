@@ -145,7 +145,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Gustav Bauer"
+	name = "Wilhem II"
 	desc = ""
 	picture = "Portrait_Prussia_Gustav.dds"
 	expire = "1965.1.1"
@@ -167,9 +167,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Franz von Papen"
+	name = "Wilhelm II"
 	desc = ""
-	picture = "Franz_von_Papen.dds"
+	picture = "Willy_II_Game.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {

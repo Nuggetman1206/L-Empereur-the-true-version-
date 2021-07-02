@@ -17,16 +17,16 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1935.5.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 59
-	fascism = 20
-	communism = 0
-	neutrality = 21
+	democratic = 5
+	fascism = 5
+	communism = 85
+	neutrality = 5
 }
 
 create_country_leader = {
@@ -42,9 +42,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Erich Honecker"
+	name = "Eugene Levine"
 	desc = ""
-	picture = "Honecker.dds"
+	picture = "RLFleader.dds"
 	expire = "1960.1.1"
 	ideology = marxism
 	traits = {

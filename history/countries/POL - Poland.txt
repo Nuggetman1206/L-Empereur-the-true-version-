@@ -203,7 +203,7 @@ figurehead_ignancy_moscicki
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1935.9.8"
 	election_frequency = 36
 	elections_allowed = yes
@@ -217,10 +217,10 @@ set_popularities = {
 
 1939.1.1 = {
 	set_popularities = {
-		democratic = 45
+		democratic = 49
 		fascism = 0
 		communism = 6
-		neutrality = 49
+		neutrality = 44
 	}
 set_politics = {
 	ruling_party = neutrality
@@ -239,27 +239,6 @@ set_politics = {
 #	}
 #}	
 
-create_country_leader = {
-	name = "Felicjan Sławoj Składkowski"
-	desc = ""
-	picture = "felicjan_slawoj_skladkowski.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		civilian_focused_administrator
-	}
-}
-
-create_country_leader = {
-	name = "Felicjan Sławoj Składkowski"
-	desc = ""
-	picture = "felicjan_slawoj_skladkowski.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		civilian_focused_administrator
-	}
-}
 
 }
 
@@ -332,21 +311,21 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = { #Becomes leader in may with the event bs.727
-#	name = "Felicjan Sławoj Składkowski"
-#	desc = ""
-#	picture = "felicjan_slawoj_skladkowski.dds"
-#	expire = "1965.1.1"
-#	ideology = moderatism
-#	traits = {
-#		civilian_focused_administrator
-#	}
-#}
+#
+#	
+#	
+#	
+#	
+#	
+#
+#		
+#	
+#
 
 create_country_leader = {
 	name = "Marian Zyndram-Kościałkowski"
 	desc = ""
-	picture = "marian_zyndram_kosciałkowski.dds"
+	picture = "Polish_leader.dds"
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = {
@@ -461,9 +440,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Stanisław Mikołajczyk"
+	name = "Marian Zyndram-Kościałkowski"
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "mikolajczyk.dds"
+	picture = "Polish_leader.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
 	traits = {

@@ -72,13 +72,13 @@ set_politics = {
 	ruling_party = neutrality
 	last_election = "1932.5.10"
 	election_frequency = 49
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	democratic = 10
+	fascism = 8
+	communism = 12
+	neutrality = 70
 }
 
 1939.1.1 = {
@@ -118,9 +118,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Antanas Snieckus"
+	name = "Frederick Viktor"
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "r56_Antanas_Snieckus.dds"
+	picture = "dehman.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
