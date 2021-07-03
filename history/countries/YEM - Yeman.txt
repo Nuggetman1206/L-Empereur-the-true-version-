@@ -6,6 +6,12 @@ oob = "YEM_1936"
 set_technology = {
 	infantry_weapons = 1
 }
+if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
 set_war_support = 0.1
 set_stability = 0.8
 set_convoys = 5
@@ -60,45 +66,12 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Council of Yemen"
-	desc = ""
-	picture = "yemen.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Council of Yemen"
-	desc = ""
-	picture = "yemen.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Council of Yemen"
-	desc = ""
-	picture = "yemen.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
 	name = "Imam Yahya"
 	desc = "POLITICS_IMAM_YAHYA_DESC"
 	picture = "GFX_portrait_yemen_imam_yahya"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		Zaydi_Champion_of_Justice
+		#
 	}
 }

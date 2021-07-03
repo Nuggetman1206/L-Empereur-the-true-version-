@@ -65,39 +65,14 @@ set_country_flag = monroe_doctrine
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1934.11.11"
 	election_frequency = 72
 	elections_allowed = yes
 }
 
 set_popularities = {
-	neutrality = 55
-	democratic = 45
-}
-
-create_country_leader = {
-	name = "Carlos Quintanilla Quiroga"
-	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "r56_portrait_BOL_Carlos_Quintanilla.dds"
-	expire = "1965.1.1"
-	ideology = moderatism 
-	traits = {
-	General_Reformer
-	retired_officer
-	}
-}
-
-create_country_leader = {
-	name = "Germán Busch Becerra"
-	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
-	picture = "portrait_BOL_german_busch.dds"
-	expire = "1939.8.23"
-	ideology = oligarchism 
-	traits = {
-		national_integralist
-		hardened_officer
-	}
+	neutrality = 100
 }
 
 create_country_leader = {
@@ -105,32 +80,20 @@ create_country_leader = {
 	desc = "POLITICS_JOSE_LUIS_TEJADA_SORZANO_DESC"
 	picture = "Portrait_Bolivia_Jose_Luis_Tejada_Sorzano.dds"
 	expire = "1965.1.1"
-	ideology = liberalism # liberalism, personally, but puppet for military
+	ideology = despotism # liberalism, personally, but puppet for military
 	traits = {
-		social_reformer_2
-		the_gentleman_president
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Plurinational Legislative Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "bol_council.dds"
+	name = "Óscar Únzaga de la Vega"
+	desc = "POLITICS_OSCAR_UNZAGA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = falangism
 	traits = {
-		voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "Jose Antonio Arze"
-	desc = ""
-	picture = "r56_Jose_Antonio_Arze.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		marxist_priest
+		#
 	}
 }
 
@@ -143,7 +106,17 @@ create_country_leader = {
 	}
 
 	set_popularities = {
-		neutrality = 55
-		democratic = 45
+		neutrality = 100
+	}
+
+	create_country_leader = {
+		name = "Carlos Quintanilla"
+		desc = "POLITICS_CARLOS_QUINTANILLA_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = oligarchism
+		traits = {
+			#
+		}
 	}
 }

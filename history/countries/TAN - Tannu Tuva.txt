@@ -9,7 +9,6 @@ set_technology = {
 
 add_ideas = {
 	limited_conscription
-	tuva_illegal_regime
 }
 
 1939.1.1 = {
@@ -66,43 +65,10 @@ set_popularities = {
 create_country_leader = {
 	name = "Salchak Toka"
 	desc = "POLITICS_SALCHAK_TOKA_DESC"
-	picture = "gfx/leaders/TAN/toka.dds"
+	picture = "gfx/leaders/TAN/portrait_tan_salchak_toka.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		comintern_workhorse
-	}
-}
-
-create_country_leader = {
-	name = "Great Khural of Tuva"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "tuva_council.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	voice_of_restraint
-	}
-}
-
-create_country_leader = {
-	name = "Great Khural of Tuva"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "tuva_council.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-	voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "Great Khural of Tuva"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "tuva_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
+		#
 	}
 }

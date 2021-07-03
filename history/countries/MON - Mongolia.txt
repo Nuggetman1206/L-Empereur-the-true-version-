@@ -7,11 +7,8 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-set_cosmetic_tag = MON_SOVIET
-
 add_ideas = {
 	limited_conscription
-	mongolia_illegal_regime
 }
 
 1939.1.1 = {
@@ -69,80 +66,15 @@ set_popularities = {
 	communism = 100
 }
 
-	566 = { set_state_flag = mongolia_can_core }
-	564 = { set_state_flag = mongolia_can_core }
-	563 = { set_state_flag = mongolia_can_core }
-	761 = { set_state_flag = mongolia_can_core }
-	612 = { set_state_flag = mongolia_can_core }
-	611 = { set_state_flag = mongolia_can_core }
-	621 = { set_state_flag = mongolia_can_core }
-	616 = { set_state_flag = mongolia_can_core }
-	329 = { set_state_flag = mongolia_can_core }
-
 create_country_leader = {
 	name = "Anandyn Amar"
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
 	picture = GFX_portrait_mon_anandyn_amar
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
-	popular_leader
+		#
 	}
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "gfx/leaders/MON/mongolia.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "gfx/leaders/MON/mongolia.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Butochiyn Tsog"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = "gfx/leaders/MON/r56_portrait_MON_Butochiyn_Tsog.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	celebrity_junta_leader
-	}
-}
-
-create_corps_commander = { #Graduated from the Sumy Artillery School
-	name = "Butochiyn Tsog"
-	portrait_path = "gfx/leaders/MON/r56_portrait_MON_Butochiyn_Tsog.dds"
-	traits = { politically_connected }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_field_marshal = { #Ranked Marshall and was leader of the Mongolian People's Army
-	name = "Khorloogiin Choibalsan"
-	portrait_path = "gfx/leaders/MON/r56_portrait_MON_Khorloogiin_Choibalsan.dds"
-	traits = { politically_connected trait_cautious }
-	skill = 3
-    attack_skill = 3
-    defense_skill = 1
-    planning_skill = 4
-    logistics_skill = 2
 }
 
 1939.1.1 = {
@@ -153,12 +85,11 @@ create_field_marshal = { #Ranked Marshall and was leader of the Mongolian People
 	create_country_leader = {
 		name = "Khorloogiin Choibalsan"
 		desc = "POLITICS_KHORLOOGIIN_CHOIBALSAN_DESC"
-		picture = "gfx/leaders/MON/Portrait_Mongol_Khorloogiin_Choibalsan.dds"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 		expire = "1965.1.1"
 		ideology = stalinism
 		traits = {
-		Staunch_Stalinist_2
+			#
 		}
 	}
 }
-

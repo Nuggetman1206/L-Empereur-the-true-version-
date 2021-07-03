@@ -1,15 +1,9 @@
 ﻿capital = 446
 
-oob = "EGY_1936"
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gwtank = 1
-}
-
-add_ideas = {
-	king_farouk_I
 }
 
 set_convoys = 20
@@ -65,53 +59,53 @@ set_convoys = 20
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1932.5.12"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
+	democratic = 25
 	fascism = 20
-	communism = 0
+	communism = 5
 	neutrality = 50
 }
 
 create_country_leader = {
 	name = "Muhammad Naguib"
 	desc = ""
-	picture = "r56_Muhammad_Naguib.dds"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_democratic1.dds"
 	ideology = liberalism
 	traits = {
-	national_liberator
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Farouk I"
+	name = "Ahmed Husayn"
 	desc = ""
-	picture = "Portrait_Egypt_Farouk.dds"
-	ideology = ultranationalism
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_1.dds"
+	ideology = fascism_ideology
 	traits = {
-		disgraced_monarch
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Aly Maher Pasha"
+	name = "Farouk Muhammad Ali"
 	desc = ""
-	picture = "Portrait_Egypt_Aly_Maher_Pasha.dds"
-	ideology = oligarchism
+	picture = "GFX_portrait_egy_faud_i"
+	ideology = despotism
 	traits = {
-	reactionary_pm
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Henri Curiel"
+	name = "Hosni al-Arabi"
 	desc = ""
-	picture = "Portrait_Henri_Curiel.dds"
+	picture = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_3.dds"
 	ideology = leninism
 	traits = {
-	ambitious_union_boss
+		#
 	}
 }

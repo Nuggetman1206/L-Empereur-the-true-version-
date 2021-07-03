@@ -56,75 +56,29 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1935.1.15"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-    neutrality = 42
-	fascism = 27
-	democratic = 31
+	fascism = 100
 }
 
 create_country_leader = {
 	name = "Maximiliano Hernández Martínez"
 	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
-	picture = "els_martinez.dds"
+	picture = "GFX_portrait_el_salvador_maximiliano_hernandez_martinez"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-	hardened_officer
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "els_council.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	voice_of_restraint
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "els_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-    voice_of_restraint_communist
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "els_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
-	}
-}
-
-create_country_leader = {
-	name = "Maximiliano Hernández Martínez"
-	desc = "POLITICS_MAXIMILIANO_HERNANDEZ_MARTINEZ_DESC"
-	picture = "els_martinez.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	hardened_officer
+		#
 	}
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = fascism
 		last_election = "1939.1.3"
 		election_frequency = 48
 		elections_allowed = yes

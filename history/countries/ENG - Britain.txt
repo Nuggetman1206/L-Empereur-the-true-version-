@@ -165,26 +165,9 @@ if = {
 		autonomous_state = autonomy_dominion
 		freedom_level = 0.2
 	}
-	set_autonomy = {
-		target = EGY
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.6
-	}
-	set_autonomy = { #They gain independence in late 1937
-		target = IRE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.6
-	}
-	set_autonomy = { #They gain independence in late 1937
-		target = OMA
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.5
-	}
 	else = {
 		puppet = MAL
 		puppet = RAJ
-		puppet = EGY
-		give_guarantee = OMA
 	}
 }
 
@@ -196,14 +179,7 @@ if = {
 }
 
 1939.1.1 = {
-	set_autonomy = {
-		target = IRE
-		autonomous_state = autonomy_free
-	}
-	set_autonomy = {
-		target = OMA
-		autonomous_state = autonomy_free
-	}
+
 	add_political_power = 1198
 	
 	#adding ministers
@@ -228,9 +204,9 @@ create_country_leader = {
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
 	picture = "Portrait_Britain_Neville_Chamberlain.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = liberalism
 	traits = {
-		chamberlain_appeaser_2 reamer_cham
+		chamberlain_appeaser rearmer
 	}
 }
 	remove_ideas = george_v #Dead
@@ -381,15 +357,10 @@ add_to_faction = CAN
 add_to_faction = AST
 add_to_faction = NZL
 add_to_faction = SAF
-add_to_faction = NEP
 
 give_military_access = RAJ
 add_to_faction = RAJ		# Must be after puppet
 add_to_faction = MAL
-
-#give_guarantee = NEP #Was independent but I'm pretty sure Britain guaranteed independence
-#Nepal joined the war the day after the UK joined, and before south africa, canada and oman
-give_guarantee = BHU #Was a protectorate
 
 #give_guarantee = CZE
 
@@ -400,7 +371,7 @@ create_country_leader = {
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Portrait_Britain_Winston_Churchill.dds"
 	expire = "1965.1.1"
-	ideology = reactionary_conservatism
+	ideology = conservatism
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
@@ -412,11 +383,22 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Britain_Stanley_Baldwin.dds"
 	expire = "1938.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		conservative_grandee
 	}
 }
+
+#create_country_leader = {
+#	name = "Neville Chamberlain"
+#	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
+#	picture = "Portrait_Britain_Neville_Chamberlain.dds"
+#	expire = "1965.1.1"
+#	ideology = liberalism
+#	traits = {
+#		
+#	}
+#}
 
 create_country_leader = {
 	name = "Oswald Mosley"
@@ -425,6 +407,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
+		champion_of_peace_1
 		economic_reformer
 	}
 }
@@ -434,22 +417,9 @@ create_country_leader = {
 	desc = "POLITICS_HARRY_POLLITT_DESC"
 	picture = "portrait_eng_harry_pollitt.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
-		Staunch_Stalinist_2
-		Trade_Unionist
-	}
-}
-
-create_country_leader = {
-	name = "David Lloyd George"
-	desc = ""
-	picture = "Lloyd_George.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		headstrong
-		autocratic_imperialist
+		staunch_stalinist
 	}
 }
 
@@ -612,17 +582,6 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Tom Moore" 
-	picture = "Portrait_Britain_Tom_Moore.dds"
-	traits = { jungle_rat }
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
 	name = "Merton Beckwith-Smith"
 		picture = "Portrait_Britain_Merton_Beckwith_Smith.dds"
 	traits = { commando }
@@ -736,6 +695,17 @@ create_corps_commander = {
 	logistics_skill = 4
 }
 
+create_corps_commander = {
+	name = "Tom Moore" 
+	picture = "Portrait_Britain_Tom_Moore.dds"
+	traits = { jungle_rat }
+	skill = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 2
+	logistics_skill = 1
+}
+
 create_navy_leader = {
 	name = "James Fownes Somerville" # Aristocrat
 	id = 983
@@ -747,19 +717,6 @@ create_navy_leader = {
 	maneuvering_skill = 4
 	coordination_skill = 5
 }
-
-create_navy_leader = {
-	name = "Louis Mountbatten" # Aristocrat
-	id = 7000
-		picture = "r56_LouisMountbatten.dds"
-	traits = { superior_tactician bold naval_lineage navy_career_officer }
-	skill = 5
-	attack_skill = 4
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 5
-}
-
 
 create_navy_leader = {
 	name = "Henry Harwood" # Aristocrat

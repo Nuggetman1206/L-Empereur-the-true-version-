@@ -1,4 +1,4 @@
-﻿capital = 1404
+﻿capital = 104
 
 set_research_slots = 3
 
@@ -47,51 +47,7 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 60
-	neutrality = 30
-	communism = 10
-}
-
-create_country_leader = {
-	name = "Halim Malkoč"
-	desc = ""
-	picture = "r56_Halim_Malkoc.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Vojislav Kecmanović"
-	desc = ""
-	picture = "gfx/leaders/BOS/Portrait_Voislav_Kecmaranovic.dds"
-	expire = "1953.3.1"
-	ideology = leninism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Radoslav Dunić"
-	desc = ""
-	picture = "gfx/leaders/BOS/Portrait_Radoslav_Dunic.dds"
-	expire = "1953.3.1"
-	ideology = conservatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Muhamed Hadžiefendić"
-	desc = ""
-	picture = "r56_Muhamed_Hadziefendic.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		#
-	}
+	democratic = 33
+	neutrality = 33
+	communism = 34
 }

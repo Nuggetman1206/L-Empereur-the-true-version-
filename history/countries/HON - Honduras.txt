@@ -59,14 +59,13 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1932.10.28"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-    neutrality = 52
-	democratic = 48
+	democratic = 100
 }
 
 create_country_leader = {
@@ -76,46 +75,13 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	liberal_democratic_paragon
-	}
-}
-
-create_country_leader = {
-	name = "National Congress of Honduras"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "hon_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-    voice_of_restraint_communist
-	}
-}
-
-create_country_leader = {
-	name = "National Congress of Honduras"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "hon_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "Tiburcio Carías Andino"
-	desc = "POLITICS_TIBURCIO_CARIAS_ANDINO_DESC"
-	picture = "GFX_portrait_honduras_portrait_tiburcio_carias_andino"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	man_of_the_nation
+		#
 	}
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1936.3.28"
 		election_frequency = 48
 		elections_allowed = yes

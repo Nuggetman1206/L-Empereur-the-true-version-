@@ -8,8 +8,7 @@ set_technology = {
 }
 
 1939.1.1 = {
-    kill_ideology_leader = fascism
-	kill_ideology_leader = neutrality
+
 	add_to_war = {
 		targeted_alliance = JAP
 		enemy = CHI
@@ -55,62 +54,14 @@ set_technology = {
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 20
-	neutrality = 80
-}
-
-add_ideas = {
-	BS_Illegitimate_Chinese_State
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = ""
-	picture = "inner.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = ""
-	picture = "inner.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = ""
-	picture = "inner.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "State Great Khural"
-	desc = ""
-	picture = "inner.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	council_of_experts
-	}
+	fascism = 80
+	neutrality = 20
 }
 
 create_country_leader = {
@@ -118,41 +69,8 @@ create_country_leader = {
 	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
 	picture = "GFX_portrait_men_demchugdongrub"
 	expire = "1965.1.1"
-	ideology = ultranationalism
+	ideology = rexism
 	traits = {
-		spirit_geng
-	}
-}
-create_country_leader = {
-	name = "Prince Demchugdongrub"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "GFX_portrait_men_demchugdongrub"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-		spirit_geng
-	}
-}
-
-create_country_leader = {
-	name = "Prince Yondonwangchug"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "Portrait_Yondonwangchug.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-	    old_figurehead
-		spirit_geng
-	}
-}
-create_country_leader = {
-	name = "Prince Yondonwangchug"
-	desc = "POLITICS_DEMCHUGDONGRUB_DESC"
-	picture = "Portrait_Yondonwangchug.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-	    old_figurehead
-		spirit_geng
+		spirit_of_genghis
 	}
 }

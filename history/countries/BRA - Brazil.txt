@@ -135,7 +135,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		Father_of_the_poor
+		#
 	}
 }
 
@@ -144,30 +144,30 @@ create_country_leader = {
 	desc = "POLITICS_PLINIO_SALGADO_DESC"
 	picture = "Portrait_Brazil_Plinio_Salgado.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = fascism_ideology
 	traits = {
-		The_Fascist_Organizer
+		#
 	}
 }
 create_country_leader = {
-	name = "Caio da Silva Prado Júnior"
+	name = "Luís Carlos Prestes"
 	desc = "POLITICS_LUIS_CARLOS_PRESTES_DESC"
-	picture = "caios.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-	revolutionary_author
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Armando de Sales Oliveira"
-	desc = ""
-	picture = "armandos.dds"
+	name = "Armando Sales"
+	desc = "POLITICS_ARMANDO_SALES_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
+	ideology = conservatism
 	traits = {
-		Foreign_Investments
+		#
 	}
 }
 
@@ -188,7 +188,7 @@ set_convoys = 40
 
 create_corps_commander = {
 	name = "Eurico Gaspar Dutra"
-	portrait_path = "Portrait_BRA_Eurico_Gaspar_Dutra.dds"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
 	traits = { ranger  }
 	skill = 3
 	attack_skill = 2

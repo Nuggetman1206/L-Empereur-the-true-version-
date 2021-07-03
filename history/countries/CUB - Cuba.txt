@@ -55,33 +55,17 @@ set_convoys = 20
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 	}
+}
+
 set_politics = {
 	ruling_party = democratic
 	last_election = "1936.1.10"
 	election_frequency = 48
 	elections_allowed = yes
 }
-	create_country_leader = {
-		name = "Federico Laredo Brú"
-		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
-		picture = "literally_nobody_has_portrait_for_him.dds"
-		expire = "1965.1.1"
-		ideology = socialism
-		traits = {
-		resolute_social_democrat
-		}	
-}
-}
-
-set_politics = {
-	ruling_party = democratic
-	last_election = "1932.1.10"
-	election_frequency = 48
-	elections_allowed = yes
-}
 set_popularities = {
-	democratic = 89
-	communism = 11
+	democratic = 98
+	communism = 2
 }
 
 create_country_leader = {
@@ -91,39 +75,19 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-	connected_citizen
+		#
 	}
 }
 
-create_country_leader = {
-	name = "Blas Roca Calderio"
-	desc = ""
-	picture = "r56_Blas_Roca_Calderio.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		editor
-	}
-}
-
-create_country_leader = {
-	name = "Cuban National Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "cuba_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "Cuban National Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "cuba_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
+1939.1.1 = {
+	create_country_leader = {
+		name = "Federico Laredo Brú"
+		desc = "POLITICS_FEDERICO_LAREDO_BRU_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = socialism
+		traits = {
+			#
+		}
 	}
 }

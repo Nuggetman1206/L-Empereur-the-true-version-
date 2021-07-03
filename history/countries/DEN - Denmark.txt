@@ -9,13 +9,6 @@ if = {
 	}
 }
 
-add_ideas = {
-king_christian_x
-low_economic_mobilisation
-BUL_government_reforms_democratic_02
-}
-
-
 set_research_slots = 3
 set_stability = 0.9
 set_war_support = 0.1
@@ -145,23 +138,6 @@ set_popularities = {
 	communism = 2
 }
 
-if = {
-	limit = {
-		OR = {
-			has_dlc = "Together for Victory"
-			has_dlc = "Man the Guns"
-		}
-	}
-	set_autonomy = {
-		target = ICE
-		autonomous_state = autonomy_dominion
-		freedom_level = 0.4
-	}
-	else = {
-		puppet = ICE
-	}
-}
-
 
 1939.1.1 = {
 	set_politics = {
@@ -174,49 +150,47 @@ if = {
 
 set_convoys = 40
 
-create_country_leader = {  #Dies in 1942
+create_country_leader = {
 	name = "Thorvald Stauning"
 	desc = "POLITICS_THORVALD_STAUNING_DESC"
 	picture = "Portrait_Denmark_Thorvald_Stauning.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = socialism
 	traits = {
-		resolute_social_democrat_2
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Frits Clausen"
 	desc = "POLITICS_FRITS_CLAUSEN_DESC"
-	picture = "r56_Frits_Clausen.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		bitter_collaborator
-		Medical_Doctor
-		incompetent_leader
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Aksel Larsen"
 	desc = "POLITICS_AKSEL_LARSEN_DESC"
-	picture = "r56_Aksel_Larsen.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		Popular_Resistor
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Christian X"
-	desc = ""
-	picture = "Christian_X.dds"
+	name = "Peter Rochegune Munch"
+	desc = "POLITICS_PETER_ROCHEGUNE_MUNCH_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
+	ideology = centrism
 	traits = {
-		man_of_the_nation
+		#
 	}
 }
 

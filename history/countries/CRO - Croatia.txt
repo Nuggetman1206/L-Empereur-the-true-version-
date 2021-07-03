@@ -101,38 +101,25 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		Lord_of_Terror
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Slavko Kolar"
-	desc = ""
-	picture = "Portrait_Slavko_Kolar.dds"
+	name = "Vladko Maček"
+	picture = "portrait_CRO_vladko_macek.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vladko Maček"
+	picture = "portrait_CRO_vladko_macek.dds"
 	expire = "1965.1.1"
 	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Slavko Kolar"
-	desc = ""
-	picture = "Portrait_Slavko_Kolar.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ivan Šubašić"
-	desc = ""
-	picture = "r56_ivan_surbasic.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
 	traits = {
 		#
 	}

@@ -104,15 +104,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1931.10.11"
 	election_frequency = 96
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 54
-	fascism = 10
-	neutrality = 36
+	democratic = 49
+	fascism = 51
 }
 
 create_country_leader = {
@@ -120,81 +119,25 @@ create_country_leader = {
 	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
 	picture = "GFX_Portrait_peru_oscar_benavides"
 	expire = "1965.1.1"
-	ideology = ultranationalism
+	ideology = fascism_ideology
 	traits = {
-	gifted_shipping_magnate_2
-	}
-}
-
-create_country_leader = {
-	name = "Republican Congress of Peru"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "pru_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Manuel Prado Ugarteche"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "gfx/leaders/PRU/portrait_per_liberal.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	economic_organizer
-	prime_minister_okyar
-	}
-}
-
-create_country_leader = {
-	name = "Republican Congress of Peru"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "pru_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Óscar Benavides"
-	desc = "POLITICS_OSCAR_BENAVIDES_DESC"
-	picture = "GFX_Portrait_peru_oscar_benavides"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	gifted_shipping_magnate_2
+		#
 	}
 }
 
 1939.1.1 = {
-set_politics = {
-	ruling_party = democratic
-	last_election = "1935.10.11"
-	election_frequency = 96
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 71
-	neutrality = 20
-	fascism = 9
-}
 	create_country_leader = {
 		name = "Manuel Prado Ugarteche"
 		desc = "POLITICS_MANUEL_PRADO_UGARTECHE_DESC"
-		picture = "gfx/leaders/PRU/portrait_per_liberal.dds"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = fascism_ideology
 		traits = {
-		economic_organizer
-		prime_minister_okyar
+			#
 		}
 	}
 }
+
 
 ### VARIANTS ###
 # 1936 Start #

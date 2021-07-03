@@ -12,7 +12,6 @@ if = {
 	add_ideas = {
 		PRC_government_corruption
 		CHI_ineffective_bureaucracy_warlord
-		BS_Warlord_Clique
 	}
 }
 
@@ -95,55 +94,14 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Lung Yun"
+	name = "Long Yun"
 	desc = "POLITICS_LONG_YUN_DESC"
 	picture = "GFX_portrait_yun_long_yun"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		Reform_Governor_Warlord
+		#
 	}
-}
-create_country_leader = {
-	name = "Lung Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "GFX_portrait_yun_long_yun"
-	expire = "1965.1.1"
-	ideology = totalitarianism
-	traits = {
-		Reform_Governor_Warlord
-	}
-}
-create_country_leader = {
-	name = "Lung Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "GFX_portrait_yun_long_yun"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-		Reform_Governor_Warlord
-	}
-}
-create_country_leader = {
-	name = "Lung Yun"
-	desc = "POLITICS_LONG_YUN_DESC"
-	picture = "GFX_portrait_yun_long_yun"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		Reform_Governor_Warlord
-	}
-}
-
-create_field_marshal = {
-	name = "Long Yun"
-	gfx = GFX_portrait_yun_long_yun				
-	traits = { war_hero } # Fought in the Xinhai Revolution, showed personal bravery fighting Japan
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
 }
 
 create_corps_commander = {

@@ -14,7 +14,6 @@ set_research_slots = 3
 add_ideas = {
 	en_svensk_tiger
 	neutrality_idea
-	king_gustaf_V
 }
 set_stability = 0.9
 set_war_support = 0.1
@@ -181,44 +180,42 @@ create_country_leader = {
 	desc = "POLITICS_PER_ALBIN_HANSSON_DESC"
 	picture = "Portrait_Sweden_Per_Albin_Hansson.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = socialism
 	traits = {
-	    folkhemmet
-		devoted_corporatist
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Sven Olov Lindholm"
 	desc = "POLITICS_SVEN_OLOV_LINDHOLM_DESC"
-	picture = "Portrait_Sweden_Sven_Lindholm.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		Nazi_youth_organizer
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Sven Linderot"
 	desc = "POLITICS_SVEN_LINDEROT_DESC"
-	picture = "r56_Sven_Linderot.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		Socialist_Cooperation
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Gustaf V"
-	desc = ""
-	picture = "Gustaf_V.dds"
+	name = "Axel Pehrsson-Bramstorp"
+	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
+	ideology = centrism
 	traits = {
-		gentle_scholar
-		anti_communist
+		#
 	}
 }
 
@@ -243,18 +240,6 @@ create_corps_commander = {
 	attack_skill = 4
 	defense_skill = 1
 	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Olof Gerhard Thörnell"
-	portrait_path = "Portrait_Sweden_Olof_Thornell.dds"
-	traits = { old_guard }
-	skill = 5
-
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
 	logistics_skill = 4
 }
 

@@ -4,15 +4,6 @@ oob = "AZR_1936"
 
 set_research_slots = 3
 
-set_cosmetic_tag = ARM_SOV
-
-353 = { set_state_flag = armenia_can_core_hard }
-354 = { set_state_flag = armenia_can_core_hard }
-1001 = { set_state_flag = armenia_can_core_hard }
-1004 = { set_state_flag = armenia_can_core_hard }
-1224 = { set_state_flag = armenia_can_core_hard }
-1262 = { set_state_flag = armenia_can_core_easy }
-1263 = { set_state_flag = armenia_can_core_easy }
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -70,23 +61,15 @@ if = {
 	}
 }
 
-set_popularities = {
-	fascism = 34
+set_popularities = {	fascism = 34
 	democratic = 30
 	communism = 36
-}
-
-set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Drastamat Kanayan"
 	desc = ""
-	picture = "gfx/leaders/ARM/drastamat.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1953.3.1"
 	ideology = fascism_ideology
 	traits = {
@@ -95,9 +78,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Simon Vratsian"
+	name = "Hovhannes Kajaznuni"
 	desc = ""
-	picture = "gfx/leaders/ARM/simon.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
@@ -106,25 +89,14 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Grigory Arutyunov"
+	name = "Grigor Harutyunyan"
 	desc = ""
-	picture = "gfx/leaders/ARM/grigory.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
 		
 	}
-}
-
-create_country_leader = {
-    name = "Garegin Nzhdeh"
-    desc = ""
-    picture = "gfx/leaders/ARM/garegin.tga"
-    expire = "1965.1.1"
-    ideology = despotism
-    traits = {
-        #
-    }
 }
 
 

@@ -1,4 +1,4 @@
-﻿capital = 599
+﻿capital = 594
 
 oob = "GXC_1936"
 
@@ -17,7 +17,6 @@ if = {
 	add_ideas = {
 		PRC_government_corruption
 		CHI_ineffective_bureaucracy_warlord
-		BS_Warlord_Clique
 	}
 }
 
@@ -82,59 +81,18 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Li Tsung-Jen"
+	name = "Li Zongren"
 	desc = "POLITICS_LI_ZONGREN_DESC"
 	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		Warlord_of_steel
+		#
 	}
-}
-create_country_leader = {
-	name = "Li Tsung-Jen"
-	desc = "POLITICS_LI_ZONGREN_DESC"
-	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-		Warlord_of_steel
-	}
-}
-create_country_leader = {
-	name = "Li Tsung-Jen"
-	desc = "POLITICS_LI_ZONGREN_DESC"
-	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-		Warlord_of_steel
-	}
-}
-create_country_leader = {
-	name = "Li Tsung-Jen"
-	desc = "POLITICS_LI_ZONGREN_DESC"
-	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		Warlord_of_steel
-	}
-}
-
-create_field_marshal = {
-	name = "Li Zongren"
-	gfx = GFX_portrait_li_zongren
-	traits = { infantry_officer politically_connected } # Many warlord battles as a junior commander
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2					
 }
 
 create_corps_commander = {
-	name = "Ch'en Chi-T'ang"
+	name = "Chen Jitang"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
 	traits = { }
 	skill = 3

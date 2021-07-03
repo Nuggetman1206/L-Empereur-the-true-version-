@@ -24,8 +24,6 @@ if = {
 }
 add_ideas = {
 	anti_german_military
-	crazy_partisans
-	king_paul
 }
 
 if = {
@@ -93,9 +91,7 @@ if = {
 }
 
 1939.1.1 = {
-    remove_ideas = {
-		king_paul
-		}
+
 	add_ideas = {
 		limited_conscription
 	}
@@ -246,32 +242,9 @@ create_country_leader = {
 	desc = "POLITICS_PRINCE_PAUL_DESC"
 	picture = "Portrait_Yugoslavia_Prince_Paul.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-	crown_regent
-	}
-}
-
-create_country_leader = {
-	name = "Dragiša Cvetković"
-	desc = ""
-	picture = "gfx/leaders/YUG/cvetkovic.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-	    man_of_the_nation
-		General_Reformer
-	}
-}
-
-create_country_leader = {
-	name = "Milan Stojadinović"
-	desc = "POLITICS_MILAN_STOJADINOVIC_DESC"
-	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Stojadinovic.dds"
-	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-	    economic_statist
+		#
 	}
 }
 
@@ -282,7 +255,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		economic_statist
+		#
 	}
 }
 
@@ -291,10 +264,9 @@ create_country_leader = {
 	desc = "POLITICS_MILAN_GROL_DESC"
 	picture = "gfx/leaders/YUG/Portrait_Yugoslavia_Milan_Grol.dds"
 	expire = "1965.1.1"
-	ideology = social_liberalism
+	ideology = liberalism
 	traits = {
-	connected_citizen
-	democratic_reformer
+		#
 	}
 }
 
@@ -305,8 +277,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-	Unifying_Symbol
-	Guerilla_Expert_2
+		#
 	}
 }
 

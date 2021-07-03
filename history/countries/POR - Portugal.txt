@@ -241,7 +241,7 @@ if = {
 		desc = "POLITICS_FRANSISCO_BARCELOS_ROLAO_PRETO_DESC"
 		picture = "gfx/leaders/POR/portrait_por_francisco_de_barcelos_oliveira_preto.dds"
 		expire = "1965.1.1"
-		ideology = falangism
+		ideology = fascism_ideology
 		traits = {
 			fascist_militia_leader
 		}

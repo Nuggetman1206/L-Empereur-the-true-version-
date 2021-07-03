@@ -58,90 +58,13 @@ set_popularities = {
 	communism = 4
 }
 
-create_country_leader = {
-	name = "Pàrlamaid na h-Alba"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/scotland.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Pàrlamaid na h-Alba"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/scotland.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Pàrlamaid na h-Alba"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/scotland.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Pàrlamaid na h-Alba"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/scotland.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "John MacCormick"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "gfx/leaders/SCO/john.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "William Weir Gilmour"
-	desc = "POLITICS_EOIN_ODUFFY_DESC"
-	picture = "gfx/leaders/SCO/william.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Hugh MacDiarmid"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/SCO/hugh.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "John Gilmour"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/SCO/gilmour.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

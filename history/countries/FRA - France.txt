@@ -11,18 +11,9 @@ if = {
 	}
 }
 
-give_guarantee = MCO
-give_military_access = MCO
-give_guarantee = ADR
-give_military_access = ADR
-
 set_research_slots = 3
 set_stability = 0.5
-set_war_support = 0.2
 
-add_ideas = {
-idea_albert_lebrun
-}
 
 # Starting tech
 set_technology = {
@@ -111,7 +102,7 @@ if = {
 	}
 }
 1939.1.1 = {
-    set_country_flag = leak_happened
+
 	add_political_power = 899
 
 	#adding ministers
@@ -232,18 +223,6 @@ if = {
 		remove_ideas = MTG_naval_treaty_adherent
 		add_ideas = MTG_naval_treaty_adherent_reduced
 	}
-		create_country_leader = {
-			name = "Édouard Daladier"
-			desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-			picture = "Portrait_France_Edouard_Daladier.dds"
-			expire = "1965.1.1"
-			ideology = social_democracy
-			traits = {
-				stout_defender
-				Austerity_Rearmer
-				hawk
-			}
-		}	
 }
 
 set_convoys = 300
@@ -273,28 +252,8 @@ add_ideas = {
 }
 
 give_guarantee = CZE
-give_guarantee = POL
 give_guarantee = YUG
 give_guarantee = ROM
-
-	34 = { set_state_flag = france_can_core_easy }
-	813 = { set_state_flag = france_can_core_easy }
-	1182 = { set_state_flag = france_can_core_easy }
-	1251 = { set_state_flag = france_can_core_easy }
-	812 = { set_state_flag = france_can_core_easy }
-	8 = { set_state_flag = france_can_core_easy }
-	892 = { set_state_flag = france_can_core_easy }
-	1304 = { set_state_flag = france_can_core_easy }
-	789 = { set_state_flag = france_can_core_hard }
-	1350 = { set_state_flag = france_can_core_hard }
-	1351 = { set_state_flag = france_can_core_hard }
-	792 = { set_state_flag = france_can_core_hard }
-	42 = { set_state_flag = france_can_core_hard }
-	51 = { set_state_flag = france_can_core_hard }
-	1335 = { set_state_flag = france_can_core_hard }
-	1062 = { set_state_flag = france_can_core_hard }
-	1439 = { set_state_flag = france_can_core_hard }
-
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
@@ -302,11 +261,9 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = socialism
 	traits = {
-			stout_defender
-			Austerity_Rearmer
-			hawk
+		stout_defender
 	}
 }
 
@@ -315,22 +272,9 @@ create_country_leader = {
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = GFX_portrait_fra_pierre_laval
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = liberalism
 	traits = {
 		stout_defender
-Lawyer_of_the_people
-nazi_symphatizer
-	}
-}
-
-create_country_leader = {
-	name = "Charles Maurras"
-	desc = "POLITICS_CHARLES_MAURRAS_DESC"
-	picture = "r56_Charles_Maurras.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		crown_regent
 	}
 }
 
@@ -341,7 +285,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = 	stalinism
 	traits = {
-		Communist_Organizer
+		
 	}
 }
 
@@ -350,9 +294,9 @@ create_country_leader = {
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "Portrait_France_Philippe_Petain.dds"
 	expire = "1965.1.1"
-	ideology = ultranationalism
+	ideology = fascism_ideology
 	traits = {
-		Marshal_Of_France
+		
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿capital = 286 #Hue
+﻿capital = 671 #Hanoi
 
 oob = "VIN_1936"
 
@@ -96,7 +96,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
 	expire = "1953.3.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		
 	}

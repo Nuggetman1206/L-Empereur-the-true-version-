@@ -5,16 +5,6 @@ oob = "RAJ_1936"
 
 set_stability = 0.6
 set_war_support = 0.1
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { camelry = 1 }
-}
-set_technology = {
-	gwtank = 1
-}
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -32,6 +22,13 @@ set_technology = {
 }
 
 if = {
+	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+if = {
 	limit = { has_dlc = "Together for Victory" }
 
 	add_ideas = {
@@ -44,13 +41,16 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+set_technology = {
+	gwtank = 1
+}
+
 set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj
-add_ideas = king_george_v_colonial
+
 1939.1.1 = {
-	add_ideas = king_george_vi_colonial
-	set_country_flag = india_can_contest_tibet_borders
+	
 	if = {
 		limit = {
 			has_dlc = "Together for Victory"
@@ -127,42 +127,29 @@ add_ideas = king_george_v_colonial
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
 	}
-	
-	create_country_leader = {
-		name = "Lord Linlithgow"
-		desc = "POLITICS_LORD_LINLITHGOW_DESC"
-		picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
-		expire = "1965.1.1"
-		ideology = despotism
-		traits = {
-       Agriculturalist
-	   self_gov_advoc
-		}
-	}
 }
 
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.11.14"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 37
-	fascism = 4
-	communism = 6
-	neutrality = 53
+	democratic = 17
+	fascism = 2
+	communism = 1
+	neutrality = 80
 }
 
 create_country_leader = {
-	name = "Lord Willingdon"
-	desc = "POLITICS_LORD_WILLINGDON_DESC"
-	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Willingdon.dds"
-	expire = "1936.4.18"
-	ideology = oligarchism
+	name = "Lord Linlithgow"
+	desc = "POLITICS_LORD_LINLITHGOW_DESC"
+	picture = "gfx/leaders/RAJ/Portrait_British_Raj_Lord_Linlithgow.dds"
+	expire = "1965.1.1"
+	ideology = despotism
 	traits = {
-		captain_of_industry
-		finance_graduate
+		
 	}
 }
 
@@ -174,7 +161,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
-		headstrong
+		
 	}
 }
 
@@ -185,7 +172,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		colonial_communist
+		
 	}
 }
 
@@ -196,18 +183,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		social_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Jawaharlal Nehru"
-	desc = "POLITICS_B_P_SITARAMAYYA_DESC"
-	picture = "r56_portrait_RAJ_Jawaharlal_Nehru.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		Chacha_Nehru
+		
 	}
 }
 

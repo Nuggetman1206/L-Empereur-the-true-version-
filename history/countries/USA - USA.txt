@@ -301,8 +301,7 @@ create_country_leader = {
 	expire = "1947.1.1"
 	ideology = liberalism
 	traits = {
-		dislikes_germany_2
-		democratic_idealist
+		dislikes_germany
 	}
 }
 
@@ -313,7 +312,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		Chief_of_Terror
+		
 	}
 }
 
@@ -322,20 +321,9 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "portrait_USA_earl_browder.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = marxism
 	traits = {
-		Red_Director
-	}
-}
-
-create_country_leader = {
-	name = "J. Edgar Hoover"
-	desc = ""
-	picture = "John_Edgar_Hoover.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		The_Director_2
+		
 	}
 }
 
@@ -354,7 +342,7 @@ create_corps_commander = {
 create_corps_commander = {
 	name = "Omar Bradley"
 	picture = "Portrait_USA_Omar_Bradley.dds"
-	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader skilled_staffer }
+	traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
 	skill = 5
 
 	attack_skill = 3
@@ -373,18 +361,6 @@ create_field_marshal = {
 	defense_skill = 3
 	planning_skill = 5
 	logistics_skill = 5
-}
-
-create_field_marshal = {
-	name = "George C. Marshall"
-	picture = "r56_George_Marshal.dds"
-	traits = { career_officer organizer inflexible_strategist infantry_officer }
-	skill = 5
-	id = 7002
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 6
 }
 
 create_corps_commander = {
@@ -412,7 +388,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Mark W. Clark"
+	name = "Mark Clark"
 	picture = "Portrait_USA_Mark_W_Clark.dds"
 	traits = { infantry_officer trait_reckless }
 	skill = 4

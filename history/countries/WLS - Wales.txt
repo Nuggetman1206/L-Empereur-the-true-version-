@@ -51,105 +51,18 @@ set_politics = {
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 97
-	fascism = 1
-	communism = 2
+	democratic = 93
+	fascism = 3
+	communism = 4
 }
 
-create_country_leader = {
-	name = "Senedd Cymru"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/wales.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Senedd Cymru"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/wales.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Senedd Cymru"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/wales.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Senedd Cymru"
-	desc = "POLITICS_ARTHUR_BRILL_DESC"
-	picture = "gfx/leaders/DAN/wales.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	council_of_experts
-	}
-}
-
-create_country_leader = {
-	name = "Aneurin Bevan"
-	desc = "POLITICS_ÉAMON_DE_VALERA_DESC"
-	picture = "gfx/leaders/WLS/aneurin.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jeffrey Hamm"
-	desc = "POLITICS_EOIN_ODUFFY_DESC"
-	picture = "gfx/leaders/WLS/jeffrey.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Niclas y Glais"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/WLS/niclas.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Saunders Lewis"
-	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "gfx/leaders/WLS/saunders.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "David John Williams"
-	picture = "r56_David_John_Williams.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	the_academic
-	}
-}
+#create_country_leader = {
+#	
+#	name = "Jonas Lote"
+#	picture = "gfx//leaders//Africa//Portrait_Africa_Generic_2.dds"
+#	expire = "1965.1.1"
+#	ideology = centrism
+#	traits = {
+#		#
+#	}
+#}

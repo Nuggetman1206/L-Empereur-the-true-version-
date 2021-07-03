@@ -123,60 +123,6 @@ set_popularities = {
 	communism = 1
 	neutrality = 79
 }
-#create_country_leader = {
-#	name = "Risto Heikki Ryti"
-#	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
-#	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
-#	expire = "1965.1.1"
-#	ideology = liberalism
-#	traits = {
-#	resistance_banker
-#	}
-#}
-
-create_country_leader = {
-	name = "Otto Wille Kuusinen"
-	desc = "POLITICS_OTTO_KUUSINEN_DESC"
-	picture = "r56_Otto_Wille_Kuusinen.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		Unpopular_Traitor
-	}
-}
-
-create_country_leader = {
-	name = "Vilho Annala"
-	desc = "POLITICS_VILHO_ANNALA_DESC"
-	picture = "Portrait_Finland_Vilho_Annala.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-		economist
-	}
-}
-
-create_country_leader = {
-	name = "Pehr Evind Svinhufvud"
-	desc = ""
-	picture = "r56_Pehr_Evind_Svinhufvud.dds"
-	expire = "1965.1.1"
-	ideology = centrism_conservative
-	traits = {
-		Ukko_Pekka
-	}
-}
-
-create_country_leader = {
-	name = "Pehr Evind Svinhufvud"
-	desc = ""
-	picture = "r56_Pehr_Evind_Svinhufvud.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		Ukko_Pekka
-	}
-}
 
 1939.1.1 = {
 	set_politics = {
@@ -185,25 +131,48 @@ create_country_leader = {
 		election_frequency = 36
 		elections_allowed = yes
 	}
-	create_country_leader = {
-		name = "Kyösti Kallio"
-		desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-		picture = "r56_Kyosti_Kallio.dds"
-		expire = "1965.1.1"
-		ideology = centrism
-		traits = {
-			leader_of_the_agrarian_union_2
-		}
+}
+create_country_leader = {
+	name = "Risto Heikki Ryti"
+	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
+	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+		#
 	}
-	create_country_leader = {
-		name = "Kyösti Kallio"
-		desc = "POLITICS_KYÖSTI_KALLIO_DESC"
-		picture = "r56_Kyosti_Kallio.dds"
-		expire = "1965.1.1"
-		ideology = social_conservatism
-		traits = {
-			leader_of_the_agrarian_union_2
-		}
+}
+
+create_country_leader = {
+	name = "Aimo Aaltonen"
+	desc = "POLITICS_AIMO_AALTONEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Vilho Annala"
+	desc = "POLITICS_VILHO_ANNALA_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Kyösti Kallio"
+	desc = "POLITICS_KYÖSTI_KALLIO_DESC"
+	picture = "gfx/leaders/FIN/Portrait_Finland_Kyosti_Kallio.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
 	}
 }
 
@@ -227,7 +196,7 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Erik Heinrichs"
-	portrait_path = "portrait_fin_erik_heinrichs.dds"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	traits = { winter_specialist ranger }
 	skill = 4
     attack_skill = 4
@@ -238,7 +207,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Vilho Petter Nenonen"
-	portrait_path = "portrait_fin_vilho_petter_nenonen.dds"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	traits = { winter_specialist commando }
 	skill = 3
     attack_skill = 3

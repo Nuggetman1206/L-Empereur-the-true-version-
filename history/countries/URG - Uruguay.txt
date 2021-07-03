@@ -104,57 +104,13 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Alfredo Baldomir Ferrari"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "portrait_urg_alfredo_baldomir.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-	economic_reformer
-	}
-}
-
-create_country_leader = {
 	name = "Gabriel Terra"
 	desc = "POLITICS_GABRIEL_TERRA_DESC"
 	picture = "GFX_portrait_uruguay_portrait_gabriel_terra"
-	expire = "1938.6.19"
-	ideology = market_liberalism
-	traits = {
-	economic_reformer
-	}
-}
-
-create_country_leader = {
-	name = "General Assembly of Uruguay"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "urg_council.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = liberalism
 	traits = {
-	voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "General Assembly of Uruguay"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "urg_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
-	}
-}
-
-create_country_leader = {
-	name = "General Assembly of Uruguay"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "urg_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-    voice_of_restraint_communist
+		#
 	}
 }
 
@@ -165,16 +121,17 @@ create_country_leader = {
 		election_frequency = 48
 		elections_allowed = yes
 	}
-create_country_leader = {
-	name = "Alfredo Baldomir Ferrari"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "portrait_urg_alfredo_baldomir.dds"
-	expire = "1965.1.1"
-	ideology = market_liberalism
-	traits = {
-	social_reformer
+
+	create_country_leader = {
+		name = "Alfredo Baldomir Ferrari"
+		desc = "POLITICS_ALFREDO_BALDOMIR_FERRARI_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			#
+		}
 	}
-}	
 }
 
 ### VARIANTS ###

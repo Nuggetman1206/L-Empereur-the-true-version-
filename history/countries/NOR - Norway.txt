@@ -9,22 +9,13 @@ if = {
 	}
 }
 
-811 = {
-add_dynamic_modifier = { modifier = snowy_but_uninhabitable_winter_wonderland }
-}
-
-1483 = {
-add_dynamic_modifier = { modifier = snowy_but_uninhabitable_winter_wonderland }
-}
-
 set_research_slots = 3
 
 add_ideas = {
 	limited_conscription
-	king_haakon_VII
 }
 
-set_stability = 0.75
+set_stability = 0.9
 set_war_support = 0.1
 set_technology = {
 	infantry_weapons = 1
@@ -132,7 +123,7 @@ if = {
 }
 
 set_convoys = 200		# biggest merchant marine in the world
-set_stability = 0.65
+set_stability = 0.7
 
 set_politics = {
 	ruling_party = democratic
@@ -166,9 +157,9 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_NYGAARDSVOLD_DESC"
 	picture = "Portrait_Norway_Johan_Nygaardsvold.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = socialism
 	traits = {
-		industry_reformer
+		#
 	}
 }
 
@@ -179,29 +170,29 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		Unpopular_Traitor
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Haakon VII"
-	desc = ""
-	picture = "Haakon_VII.dds"
+	name = "Johan Ludwig Mowinckel"
+	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
+	ideology = centrism
 	traits = {
-		Nationalist_Symbol_2
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Adam Egede-Nissen"
 	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
-	picture = "r56_Adam_Egede-Nissen.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
-		militant_socialist
+		#
 	}
 }
 

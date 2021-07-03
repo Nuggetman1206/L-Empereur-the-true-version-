@@ -117,42 +117,20 @@ create_country_leader = {
 	desc = "POLITICS_ALFONSO_LOPEZ_PUMAREJO_DESC"
 	picture = "GFX_Portrait_columbia_alfonso_lopez"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = liberalism
 	traits = {
-	resolute_social_democrat
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Congress of Colombia"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "col_council.dds"
+	name = "Mariano Ospina Pérez"
+	desc = "POLITICS_MARIANO_OSPINA_PEREZ_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = centrism
 	traits = {
-    voice_of_restraint_communist
-	}
-}
-
-create_country_leader = {
-	name = "Gustavo Rojas"
-	desc = ""
-	picture = "r56_Gustavo_Rojas.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-	
-	}
-}
-
-create_country_leader = {
-	name = "Congress of Colombia"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "col_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
+		#
 	}
 }
 
@@ -167,6 +145,17 @@ create_country_leader = {
 
 	set_popularities = {
 		democratic = 100
+	}
+
+	create_country_leader = {
+		name = "Eduardo Santos"
+		desc = "POLITICS_EDUARDO_SANTOS_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_5.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			#
+		}
 	}
 }
 

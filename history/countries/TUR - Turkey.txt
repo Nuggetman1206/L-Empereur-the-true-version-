@@ -71,7 +71,7 @@ if = {
 	if = { 
 		limit = { has_dlc = "Battle for the Bosporus" }	
 		set_variable = { var = TUR_kemalist_power_variable value = 5 }
-		1188 = {
+		797 = {
 			add_dynamic_modifier = { modifier = kemalist_loyalties }
 		}
 		341 = {
@@ -92,16 +92,13 @@ if = {
 		352 = {
 			add_dynamic_modifier = { modifier = kurdish_separatism }
 		}
-		959 = {
-			add_dynamic_modifier = { modifier = kurdish_separatism }
-		}
-		960 = {
+		800 = {
 			add_dynamic_modifier = { modifier = kurdish_separatism }
 		}
 		353 = {
 			add_dynamic_modifier = { modifier = kurdish_agitation }
 		}
-		958 = {
+		798 = {
 			add_dynamic_modifier = { modifier = islamist_opposition }
 		}
 		349 = {
@@ -152,13 +149,8 @@ if = {
 			set_resistance = 15
 			set_garrison_strength = 0.75
 		}
-		960 = {
-			start_resistance = yes
-			set_compliance = 10
-			set_resistance = 15
-			set_garrison_strength = 0.75		
-		}
-		959 = {
+		
+		800 = {
 			start_resistance = yes
 			set_compliance = 10
 			set_resistance = 15
@@ -286,7 +278,7 @@ if = {
 			expire = "1965.1.1"
 			ideology = despotism
 			traits = {
-				milli_sef_2
+				milli_sef
 			}
 		}
 	}
@@ -399,38 +391,6 @@ set_popularities = {
 	neutrality = 94
 }
 
-1086 = { set_state_flag = turkey_can_core_hard }
-211 = { set_state_flag = turkey_can_core_hard }
-943 = { set_state_flag = turkey_can_core_hard }
-1486 = { set_state_flag = turkey_can_core_hard }
-1143 = { set_state_flag = turkey_can_core_hard }
-1160 = { set_state_flag = turkey_can_core_hard }
-1159 = { set_state_flag = turkey_can_core_hard }
-1227 = { set_state_flag = turkey_can_core_hard }
-1204 = { set_state_flag = turkey_can_core_hard }
-677 = { set_state_flag = turkey_can_core_hard }
-1257 = { set_state_flag = turkey_can_core_hard }
-1040 = { set_state_flag = turkey_can_core_hard }
-1264 = { set_state_flag = turkey_can_core_hard }
-676 = { set_state_flag = turkey_can_core_hard }
-1245 = { set_state_flag = turkey_can_core_hard }
-419 = { set_state_flag = turkey_can_core_easy }
-1366 = { set_state_flag = turkey_can_core_easy }
-420 = { set_state_flag = turkey_can_core_easy }
-1141 = { set_state_flag = turkey_can_core_easy }
-1266 = { set_state_flag = turkey_can_core_easy }
-1429 = { set_state_flag = turkey_can_core_easy }
-1487 = { set_state_flag = turkey_can_core_easy }
-229 = { set_state_flag = turkey_can_core_easy }
-122 = { set_state_flag = turkey_can_core_easy }
-1262 = { set_state_flag = turkey_can_core_easy }
-1003 = { set_state_flag = turkey_can_core_easy }
-1263 = { set_state_flag = turkey_can_core_easy }
-1156 = { set_state_flag = turkey_can_core_easy }
-184 = { set_state_flag = turkey_can_core_easy }
-1142 = { set_state_flag = turkey_can_core_easy }
-1063 = { set_state_flag = turkey_can_core_easy }
-
 set_convoys = 20
 set_stability = 0.5
 set_war_support = 0.3
@@ -465,7 +425,7 @@ if = {
 		desc = "POLITICS_CELAL_BAYAR_DESC"
 		picture = "GFX_portrait_tur_celal_bayar"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = conservatism
 		traits = {
 			liberal_democratic_paragon
 		}
@@ -500,10 +460,10 @@ if = {
 		name = "Mustafa Kemal Atatürk"
 		desc = "POLITICS_MUSTAFA_KEMAL_ATATÜRK_DESC"
 		picture = "gfx/leaders/TUR/Portrait_Turkey_Mustafa_Kemal_Ataturk.dds"
-		expire = "1965.1.1"
+		expire = "1938.11.10"
 		ideology = despotism
 		traits = {
-			father_of_the_turks
+			#
 		}
 	}
 	
@@ -514,7 +474,7 @@ if = {
 		expire = "1965.1.1"
 		ideology = stalinism
 		traits = {
-			reluctant_stalinist
+			#
 		}
 	}
 	
@@ -523,19 +483,19 @@ if = {
 		desc = "POLITICS_CELAL_BAYAR_DESC"
 		picture = "GFX_portrait_tur_celal_bayar"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = conservatism
 		traits = {
-			liberal_democratic_paragon
+			#
 		}
 	}
 	create_country_leader = {
-		name = "Mehmet Recep Peker"
-		desc = "POLITICS_MEHMET_RECEP_PEKER_DESC"
-		picture = "GFX_portrait_tur_recep_peker"
+		name = "Fevzi Çakmak"
+		desc = "POLITICS_FEVZI_CAKMAK_DESC"
+		picture = "GFX_portrait_tur_fevzi_cakmak"
 		expire = "1965.1.1"
 		ideology = fascism_ideology
 		traits = {
-			the_statist
+			#
 		}
 	}
 }

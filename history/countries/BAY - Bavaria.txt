@@ -124,57 +124,15 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 25
+	democratic = 30
 	fascism = 10
-	communism = 25
-	neutrality = 40
+	communism = 60
 }
 
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Rupprecht I"
-	desc = ""
-	picture = "Portrait_Bavaria_Rupprecht.dds"
-	expire = "1965.1.1"
-	ideology = absolute_monarchism
-	traits = {
-		The_Soldier_King
-	}
-}
-create_country_leader = {
-	name = "Fritz Schäffer"
-	desc = ""
-	picture = "r56_portrait_BAV_Fritz_Schaffer.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		#
-	}
-}
 
-create_country_leader = {
-	name = "Paul Giesler"
-	desc = ""
-	picture = "Portrait_Bavaria_Paul_Giesler.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		backroom_backstabber
-	}
-}
-
-create_country_leader = {
-	name = "Ernst Toller"
-	desc = ""
-	picture = "r56_Portrait_BAV_Ernst_Toller.dds"
-	expire = "1965.1.1"
-	ideology = radical_socialism
-	traits = {
-		#
-	}
-}
 
 #create_country_leader = {
 #	name = "Dennis Fredauer"

@@ -7,11 +7,6 @@ set_technology = {
 	infantry_weapons = 1
 }
 
-add_ideas = {
- BS_Illegitimate_Chinese_State 
- the_Dalai_Lama
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -61,52 +56,14 @@ set_politics = {
 set_popularities = {
 	neutrality = 100
 }
-add_ideas = {
-	BS_Illegitimate_Chinese_State
-}
 
 create_country_leader = {
 	name = "Jamphel Yeshe Gyaltsen"
 	desc = "POLITICS_JAMPHEL_YESHE_GYALTSEN_DESC"
 	picture = "Portrait_Tibet_Jamphel_Yeshe_Gyaltsen.dds"
 	expire = "1965.1.1"
-	ideology = absolute_monarchism
-	traits = {
-		Regent
-	}
-}
-
-create_country_leader = {
-	name = "Phuntsog Wangyal"
-	desc = ""
-	picture = "r56_Bapa_Phuntsog_Wangyal.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = despotism
 	traits = {
 		#
 	}
 }
-
-create_country_leader = {
-	name = "Chao Kung"
-	desc = "POLITICS_CHAO_KUNG_DESC"
-	picture = "r56_Chao_Kung.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		Regent
-		Spy
-	}
-}
-create_country_leader = {
-	name = "Thubten Kunphela"
-	desc = ""
-	picture = "r56_Thubten_Kunphela.dds"
-	expire = "1965.1.1"
-	ideology = social_liberalism
-	traits = {
-		#
-	}
-}
-
-

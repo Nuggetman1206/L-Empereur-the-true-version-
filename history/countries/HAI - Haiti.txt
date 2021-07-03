@@ -60,14 +60,12 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.10.14"
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 70
-	communism = 10
-	neutrality = 20
+	democratic = 100
 }
 
 create_country_leader = {
@@ -77,41 +75,17 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	anti_communist
-	compassionate_commoner
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Council of State"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "hai_council.dds"
+	name = "Jacques Roumain"
+	desc = "POLITICS_JACQUES_ROUMAIN_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-    voice_of_restraint_communist
+		#
 	}
 }
-
-create_country_leader = {
-	name = "Council of State"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "hai_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
-	}
-}
-
-create_country_leader = {
-	name = "Council of State"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "hai_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
-	}
-}
-

@@ -1,8 +1,6 @@
 ﻿capital = 289
 
 oob = "SIA_1936"
-
-add_ideas = { king_rama_VIII }
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "SIA_1936_naval_mtg"
@@ -39,13 +37,6 @@ if = {
 	}
 }
 set_convoys = 15
-
-981 = { set_state_flag = siam_can_core_easy }
-1041 = { set_state_flag = siam_can_core_hard }
-1073 = { set_state_flag = siam_can_core_easy }
-1077 = { set_state_flag = siam_can_core_easy }
-1085 = { set_state_flag = siam_can_core_easy }
-1094 = { set_state_flag = siam_can_core_easy }
 
 1939.1.1 = {
 
@@ -140,41 +131,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-	politically_insecure_leader
-	Embezzler
-	}
-}
-
-create_country_leader = {
-	name = "Plaek Phibunsongkhram"
-	desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
-	picture = "Plaek_Phibunsongkhram.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-		Ultranationalist_Progressive
-	}
-}
-
-create_country_leader = {
-	name = "Phayom Chulanont"
-	desc = ""
-	picture = "r56_Phayom_Chulanont.dds"
-	expire = "1965.1.1"
-	ideology = leninism
-	traits = {
-	Guerilla_Expert_2
-	}
-}
-
-create_country_leader = {
-	name = "Pridi Banomyong"
-	desc = ""
-	picture = "r56_Pridi_Banomyong.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	Staunch_globalist_2
+		#
 	}
 }
 
@@ -187,6 +144,17 @@ create_country_leader = {
 	}
 	set_popularities = {
 		fascism = 100
+	}
+
+	create_country_leader = {
+		name = "Plaek Phibunsongkhram"
+		desc = "POLITICS_PLAEK_PHIBUNSONGKHRAM_DESC"
+		picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
+		expire = "1965.1.1"
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
 	}
 }
 

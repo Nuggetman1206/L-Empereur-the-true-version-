@@ -4,8 +4,6 @@ oob = "GEO_1936"
 
 set_research_slots = 3
 
-set_cosmetic_tag = GEO_SOV
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -62,25 +60,13 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 75	communism = 25
+set_popularities = {	democratic = 25	communism = 75
 }
-
-set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-	1366 = { set_state_flag = georgia_can_core }
-	1367 = { set_state_flag = georgia_can_core }
-	1365 = { set_state_flag = georgia_can_core }
-	1224 = { set_state_flag = georgia_can_core }
 
 create_country_leader = {
 	name = "Noe Zhordania"
 	desc = ""
-	picture = "gfx/leaders/GEO/noe.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
 	ideology = liberalism
 	traits = {
@@ -91,34 +77,12 @@ create_country_leader = {
 create_country_leader = {
 	name = "Kandid Charkviani"
 	desc = ""
-	picture = "gfx/leaders/GEO/kandid.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
 		
 	}
-}
-
-create_country_leader = {
-	name = "Shalva Maglakelidze"
-	desc = ""
-	picture = "gfx/leaders/GEO/shalva.dds"
-	expire = "1953.3.1"
-	ideology = fascism_ideology
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-    name = "George Bagration-Mukhraneli"
-    desc = ""
-    picture = "gfx/leaders/GEO/giorgi.dds"
-    expire = "1965.1.1"
-    ideology = despotism
-    traits = {
-        #
-    }
 }
 
 #couldnt find anything else, the commies simply forced everyone else into exile

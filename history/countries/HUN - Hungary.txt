@@ -28,7 +28,23 @@ if = {
 	}
 }
 
-add_opinion_modifier = { target = POL modifier = hun_pol_brother }
+if = {
+	limit = {
+		#has_dlc = Battle for the Bosporus
+	}
+	add_opinion_modifier = { 
+		target = CZE
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
+		target = ROM
+		modifier = BFTB_incongruous_neighbors
+	}
+	add_opinion_modifier = { 
+		target = YUG
+		modifier = BFTB_incongruous_neighbors
+	}
+}
 
 1939.1.1 = {
 	remove_ideas = HUN_treaty_of_triannon
@@ -56,7 +72,6 @@ add_opinion_modifier = { target = POL modifier = hun_pol_brother }
 		complete_national_focus = HUN_demand_southern_slovakia
 		complete_national_focus = HUN_mobile_focus
 		complete_national_focus = HUN_license_foreign_designs
-		complete_national_focus = HUN_strengthen_fascists
 		
 		#Handle this manually
 		unlock_national_focus = HUN_renounce_the_treaty_of_trianon
@@ -64,6 +79,9 @@ add_opinion_modifier = { target = POL modifier = hun_pol_brother }
 			limited_conscription
 			HUN_treaty_of_triannon_3
 		}
+
+		unlock_national_focus = HUN_strengthen_fascists #To avoid leader ID clash
+		add_ideas = HUN_strengthen_fascists
 
 		else = {
 			#generic focuses
@@ -146,26 +164,13 @@ if = {
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
-		ideology = despotism
+		ideology = oligarchism
 		traits = {
 			fascist_sympathies
 			anti_communist
-			Regent_and_Admiral
-			Stagnant_Regent
 		}
 		id = 500 #Horthy Neutral
 	}
-	create_country_leader = {
-		name = "Ferenc Szálasi"
-		desc = ""
-		picture = "portrait_hun_ferenc_szalasi.dds"
-		expire = "1965.1.1"
-		ideology = fascism_ideology
-		traits = {
-			prince_of_terror_2
-		}
-	}
-	set_party_name = { ideology = fascism long_name = HUN_arrow_cross_party_long name = HUN_arrow_cross_party }
 	else = {
 		create_country_leader = {
 			name = "Miklós Horthy"
@@ -173,21 +178,13 @@ if = {
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
 			ideology = despotism
-			traits = {
-			Regent_and_Admiral
-			Stagnant_Regent
-			}
 		}
 		create_country_leader = {
 			name = "Miklós Horthy"
 			desc = "POLITICS_MIKLOS_HORTHY_DESC"
 			picture = "Portrait_Hungary_Miklos_Horthy.dds"
 			expire = "1965.1.1"
-			ideology = ultranationalism
-			traits = {
-			Regent_and_Admiral
-			Stagnant_Regent
-			}
+			ideology = fascism_ideology
 		}
 	}
 }
@@ -199,19 +196,18 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		Staunch_stalinist_2
-Bald_Butcher
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Árpád Szakasits"
 	desc = "POLITICS_ARPAD_SZAKASITS_DESC"
-	picture = "Portrait_Arpad_Szakasits.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
+	ideology = socialism
 	traits = {
-		resolute_social_democrat
+		#
 	}
 }
 
@@ -222,6 +218,17 @@ create_country_leader = {
 		}
 		#Remove neutral Horty add fascist
 		retire_country_leader = yes
+		create_country_leader = {
+			name = "Miklós Horthy"
+			desc = "POLITICS_MIKLOS_HORTHY_DESC"
+			picture = "Portrait_Hungary_Miklos_Horthy.dds"
+			expire = "1965.1.1"
+			ideology = fascism_ideology
+			traits = {
+				anti_communist
+			}
+			id = 503 #Horty fascist
+		}
 	}
 
 	set_politics = {

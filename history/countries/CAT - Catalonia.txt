@@ -66,56 +66,29 @@ set_popularities = {
 }
 
 create_country_leader = {
-    name = "Lluís Companys"
-    desc = ""
-    picture = "gfx/leaders/CAT/Portrait_Lluis_Companys.dds"
-    expire = "1965.1.1"
-    ideology = liberalism
-    traits = {
-		democratic_socialist_democratic
-    }
-}
-
-create_country_leader = {
-    name = "Josep Irla i Bosch"
-    desc = ""
-    picture = "gfx/leaders/CAT/Portrait_Josep_Bosch.dds"
-    expire = "1965.1.1"
-    ideology = centrism
-    traits = {
-	national_revivalist
-    }
-}
-
-create_country_leader = {
-    name = "Juan Comorera"
-    desc = ""
-    picture = "gfx/leaders/CAT/Portrait_Juan_Comorera.dds"
-    expire = "1965.1.1"
-    ideology = radical_socialism
-    traits = {
-	adventurous_daredevil
-    }
-}
-
-create_country_leader = {
-	name = "Víctor Alba"
-	desc = ""
-	picture = "gfx/leaders/CAT/Portrait_Victor_Alba.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	connected_citizen
-	}
-}
-
-create_country_leader = {
-	name = "García Birlan"
-	desc = "POLITICS_GARCIA_BIRLAN_DESC"
-	picture = "gfx/leaders/CAT/Portrait_Garcia_Birlan.dds"
+	name = "Andreu Nin i Pérez"
+	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
-	traits = {
-	council_communist
-	}
+}
+
+create_country_leader = {
+	name = "Lluís Companys i Jover"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+}
+
+create_country_leader = {
+	name = "Daniel Cardona i Civit"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_5.dds"
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+}
+
+create_country_leader = {
+	name = "Francesc Cambó i Batlle"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_6.dds"
+	expire = "1965.1.1"
+	ideology = centrism
 }

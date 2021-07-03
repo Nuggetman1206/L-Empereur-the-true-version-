@@ -1,8 +1,5 @@
 ﻿capital = 41
 
-give_guarantee = ADR
-give_military_access = ADR
-
 oob = "SPR_1936"
 if = {
 	limit = { has_dlc = "Man the Guns" }
@@ -27,6 +24,13 @@ if = {
 
 if = {
 	limit = {
+		has_dlc = "Battle for the Bosporus"
+	}
+	set_technology = { camelry = 1 }
+}
+
+if = {
+	limit = {
 		has_dlc = "La Resistance"
 	}
 	every_owned_state = {
@@ -44,8 +48,8 @@ if = {
 		SPA_garrison_control_cost_calculation = yes
 	}
 	set_popularities = {
-		democratic = 61
-		fascism = 17
+		democratic = 41
+		fascism = 37
 		communism = 7
 		neutrality = 15
 	}
@@ -100,7 +104,7 @@ if = {
 	171 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}
-	1054 = {
+	792 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
 	}
 }
@@ -335,7 +339,7 @@ if = {
 		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
 		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = conservatism
 		traits = {
 
 		}
@@ -355,7 +359,7 @@ if = {
 		name = "Alejandro Lerroux"
 		id = 1100
 		desc = "POLITICS_ALEJANDRO_LERROUX_DESC"
-		picture = "Portrait_Spain_Alejandro_Lerroux.dds"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 		expire = "1965.1.1"
 		ideology = centrism
 		traits = {
@@ -367,7 +371,7 @@ if = {
 		desc = "POLITICS_FRANCISCO_FRANCO_DESC"
 		picture = "GFX_portrait_spain_francisco_franco"
 		expire = "1965.1.1"
-		ideology = ultranationalism
+		ideology = fascism_ideology
 		traits = {
 
 		}
@@ -384,7 +388,7 @@ if = {
 		desc = "POLITICS_NICETO_ALCALA_ZAMORA_DESC"
 		picture = "GFX_portrait_SPR_niceto_alcala_zamora"
 		expire = "1965.1.1"
-		ideology = liberalism
+		ideology = conservatism
 		traits = {
 			indecisive
 		}
@@ -415,7 +419,7 @@ if = {
 		desc = "POLITICS_MANUEL_FAL_CONDE_DESC"
 		picture = "GFX_portrait_SPA_manuel_fal_conde"
 		expire = "1965.1.1"
-		ideology = oligarchism
+		ideology = despotism
 		traits = {
 			jefe
 		}

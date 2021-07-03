@@ -2,8 +2,6 @@
 
 oob = "CZE_1936"
 
-add_ideas = { edvard_benis }
-
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -44,20 +42,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	extra_constitutional_powers
-	economic_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Milan Hodža"
-	desc = ""
-	picture = "Portrait_CZE_Milan_Hodza.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	economic_reformer
-	national_integralist
+		#
 	}
 }
 
@@ -68,7 +53,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-	Fascist_collaborator
+		#
 	}
 }
 
@@ -79,19 +64,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-	Staunch_stalinist_2
-	}
-}
-
-create_country_leader = {
-	name = "Jan Syrový"
-	desc = ""
-	picture = "Portrait_Czech_Jan_Syrovy.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		hardened_officer
-		determined_general
+		#
 	}
 }
 
@@ -146,7 +119,6 @@ if = {
 	add_ideas = {
 		CZE_skoda_works
 		CZE_divided_nation
-		crazy_partisans
 }
 	give_guarantee = YUG
 	give_guarantee = ROM

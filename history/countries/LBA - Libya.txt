@@ -57,22 +57,22 @@ set_convoys = 20
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 50
+	democratic = 25
 	fascism = 20
 	communism = 5
-	neutrality = 25
+	neutrality = 50
 }
 
 create_country_leader = {
-	name = "Libyan Liberation Council"
+	name = "Bashir es Sadawi"
 	desc = ""
-	picture = "libya_council.dds"
+	picture = "Portrait_Arabia_Generic_democratic1.dds"
 	ideology = liberalism
 	traits = {
 		#
@@ -90,19 +90,19 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Idris of Libya"
+	name = "Idris Senussi"
 	desc = ""
-	picture = "idris_of_libya.dds"
+	picture = "Portrait_Arabia_Generic_land_3.dds"
 	ideology = despotism
 	traits = {
-	Freedom_Fighter_2
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Libyan Revolutionary Council"
+	name = "Hassan as-Senussi"
 	desc = ""
-	picture = "libya_council.dds"
+	picture = "Portrait_Arabia_Generic_communism1.dds"
 	ideology = leninism
 	traits = {
 		#

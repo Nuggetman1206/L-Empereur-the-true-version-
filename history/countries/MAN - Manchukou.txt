@@ -1,4 +1,4 @@
-﻿capital = 1026
+﻿capital = 328
 
 oob = "MAN_1936"
 
@@ -8,8 +8,6 @@ set_technology = {
 	
 }
 
-set_cosmetic_tag = MAN_start
-
 if = {
 	limit = { has_dlc = "Waking the Tiger" }
 	set_country_flag = MAN_northern_bandits
@@ -18,11 +16,6 @@ if = {
 	add_ideas = MAN_banditry
 	add_ideas = MAN_kwantung_veto
 	add_ideas = MAN_low_legitimacy_5
-}
-
-add_ideas = {
-	BS_Illegitimate_Chinese_State
-	king_puyi
 }
 
 set_convoys = 5
@@ -102,14 +95,14 @@ set_convoys = 5
 }
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 set_popularities = {
-	fascism = 27
-	neutrality = 73
+	fascism = 80
+	neutrality = 20
 }
 
 create_country_leader = {
@@ -117,43 +110,9 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = ultranationalism
+	ideology = rexism
 	traits = {
 		warrior_code
-		Puppet_Emperor
-	}
-}
-
-create_country_leader = {
-	name = "Zhang Jinghui"
-	desc = "POLITICS_Zhang_Jinghui_DESC"
-	picture = "GFX_portrait_man_zhang_jinghui"
-	expire = "1964.1.1"
-	ideology = ultranationalism
-	traits = {
-	Tofu_Prime_Minister
-	}
-}
-
-create_country_leader = {
-	name = "Manchu Revolutionary Council"
-	
-	picture = "gfx/leaders/MAN/MAN_council.dds"
-	expire = "1960.1.1"
-	ideology = marxism
-	traits = {
-		revolutionary_author
-	}
-}
-
-create_country_leader = {
-	name = "Manchu Liberation Council"
-	
-	picture = "gfx/leaders/MAN/MAN_council.dds"
-	expire = "1960.1.1"
-	ideology = socialism
-	traits = {
-		elected_regency_council_pro_allies
 	}
 }
 
@@ -162,21 +121,9 @@ create_country_leader = {
 	
 	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
 	expire = "1960.1.1"
-	ideology = constitutional_monarchism
+	ideology = despotism
 	traits = {
 		warrior_code
-		Puppet_Emperor
-	}
-}
-
-create_country_leader = {
-	name = "Zhang Jinghui"
-	desc = "POLITICS_Zhang_Jinghui_DESC"
-	picture = "GFX_portrait_man_zhang_jinghui"
-	expire = "1964.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-	Tofu_Prime_Minister
 	}
 }
 

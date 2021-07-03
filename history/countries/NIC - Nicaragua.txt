@@ -61,48 +61,26 @@ set_convoys = 10
 }
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1934.11.8"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 48
+	democratic = 15
 	fascism = 5
 	communism = 10
-	neutrality = 37
+	neutrality = 70
 }
 
 create_country_leader = {
 	name = "Juan Bautista Sacasa"
 	desc = "POLITICS_JUAN_BAUTISTA_SACASA_DESC"
-	picture = "gfx/leaders/NIC/r56_portrait_NIC_Juan_Bautista_Sacasa.dds"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = liberalism
 	traits = {
-	resolute_social_democrat
-	}
-}
-
-create_country_leader = {
-	name = "Nicaraguan National Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "nic_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-    voice_of_restraint_communist
-	}
-}
-
-create_country_leader = {
-	name = "Nicaraguan National Assembly"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "nic_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
+		#
 	}
 }
 
@@ -111,7 +89,7 @@ create_country_leader = {
 		ruling_party = neutrality
 		last_election = "1936.12.8"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -122,6 +100,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-	industrial_monopoly
+		#
 	}
 }

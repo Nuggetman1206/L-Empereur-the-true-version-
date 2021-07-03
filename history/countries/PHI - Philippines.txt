@@ -83,40 +83,18 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
 	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-	roosevelt_of_phi
-	}
-}
-
-create_country_leader = {
-	name = "Manuel Luis Quezón"
-	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
-	picture = "gfx/leaders/PHI/Portrait_Philippines_Manuel_Luis_Quezon.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	roosevelt_of_phi
-	}
-}
-
-create_country_leader = {
-	name = "Crisanto Evangelista"
-	desc = ""
-	picture = "r56_Crisanto_Evangelista.dds"
-	expire = "1965.1.1"
-	ideology = marxism
+	ideology = conservatism
 	traits = {
 		#
 	}
 }
 
 create_country_leader = {
-	name = "Andres Soriano"
-	desc = ""
-	picture = "r56_Andres_Roxas_Soriano.dds"
+	name = "Pedro P. Baguisa"
+	desc = "POLITICS_PEDRO_BAGUISA_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = falangism
+	ideology = marxism
 	traits = {
 		#
 	}

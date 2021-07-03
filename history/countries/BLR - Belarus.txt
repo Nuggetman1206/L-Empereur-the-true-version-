@@ -4,8 +4,6 @@ oob = "BLR_1936"
 
 set_research_slots = 3
 
-set_cosmetic_tag = BLR_SOV
-
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -62,46 +60,13 @@ if = {
 	}
 }
 
-set_popularities = {
-	democratic = 15
-	neutrality = 20
-	communism = 60
-	fascism = 5
+set_popularities = {	democratic = 15	neutrality = 20	communism = 60	fascism = 5
 }
 
-set_politics = {
-	ruling_party = communism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-1375 = { set_state_flag = belarus_can_core }
-1205 = { set_state_flag = belarus_can_core }
-1383 = { set_state_flag = belarus_can_core }
-784 = { set_state_flag = belarus_can_core }
-1191 = { set_state_flag = belarus_can_core }
-1432 = { set_state_flag = belarus_can_core }
-1416 = { set_state_flag = belarus_can_core }
-1417 = { set_state_flag = belarus_can_core }
-997 = { set_state_flag = belarus_can_core }
-97 = { set_state_flag = belarus_can_core }
-1373 = { set_state_flag = belarus_can_core }
-1363 = { set_state_flag = belarus_can_core }
-1440 = { set_state_flag = belarus_can_core }
-210 = { set_state_flag = belarus_can_core }
-243 = { set_state_flag = belarus_can_core }
-1162 = { set_state_flag = belarus_can_core }
-1164 = { set_state_flag = belarus_can_core }
-1452 = { set_state_flag = belarus_can_core }
-927 = { set_state_flag = belarus_can_core }
-1346 = { set_state_flag = belarus_can_core }
-1349 = { set_state_flag = belarus_can_core }
-	
 create_country_leader = {
     name = "Vasil Zacharka"
     desc = ""
-    picture = "New_Ways_Vasil_Zacharka.dds"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
     ideology = centrism
     traits = {
@@ -112,7 +77,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Radasłaŭ Astroŭski"
     desc = ""
-    picture = "radaslau.dds"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
     expire = "1965.1.1"
     ideology = fascism_ideology
     traits = {
@@ -123,7 +88,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Panteleimon Ponomarenko"
     desc = ""
-    picture = "Panteleimon_Ponomarenko.dds"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
     expire = "1965.1.1"
     ideology = stalinism
     traits = {
@@ -134,7 +99,7 @@ create_country_leader = {
 create_country_leader = {
     name = "Adam Stankievič"
     desc = ""
-    picture = "gfx/leaders/BLR/adam.dds"
+    picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
     expire = "1965.1.1"
     ideology = socialism
     traits = {

@@ -1,4 +1,4 @@
-﻿capital = 1021 # Nanjing
+﻿capital = 613 # Nanjing
 
 oob = "CHI_1936"
 if = {
@@ -9,8 +9,8 @@ if = {
 	}
 }
 
-set_stability = 0.5
-set_war_support = 0.8
+set_stability = 0.2
+set_war_support = 0.5
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
@@ -42,10 +42,8 @@ if = {
 }
 
 add_ideas = {
-	german_advisors	
+	german_advisors
 }
-add_timed_idea = { idea = CHI_japan_stuff days = 2000 }
-add_timed_idea = { idea = CHI_commie_stuff days = 750 }
 
 if = {
 	limit = {
@@ -70,34 +68,17 @@ if = {
 		CHI_incompetent_officers
 		free_trade
 		CHI_hyper_inflation_1
-		low_economic_mobilisation
-		CHI_unequal_treaties
 	}
 }
 save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
 
-if = {
-	limit = {
-			has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = NEA
-		autonomous_state = autonomy_integrated_puppet
-	}
-	else = {
-		puppet = NEA
-	}
-}
-
-1341 = { set_state_flag = international_concession }
-
 1939.1.1 = {
 
 	add_political_power = 1198
-	set_stability = 1.0
-	set_war_support = 1.0
+	set_stability = 0.5
+	set_war_support = 0.7
 	
 	if = {
 		limit = { has_dlc = "Waking the Tiger" }
@@ -156,7 +137,10 @@ if = {
 			#national spirits
 			CHI_hyper_inflation_1
 			CHI_nine_power_treaty
-			free_trade		
+			CHI_army_corruption_2
+			CHI_ineffective_bureaucracy
+			CHI_incompetent_officers
+			free_trade
 			CHI_military_affairs_commission
 		}
 	}
@@ -225,42 +209,28 @@ set_politics = {
 }
 
 set_popularities = {
-	neutrality = 60
-	democratic = 35
-	communism = 5
-}
-
-create_country_leader = { #exists in case Chiang gets killed by the communists and Jingwei defected - this way China won't have a generic leader
-	name = "Soong May-Ling"
-	desc = "POLITICS_SOON_MAY_LING_DESC"
-	picture = "Soong.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		first_lady
-	}
+	neutrality = 100
 }
 
 create_country_leader = {
-	name = "Chiang Chung-Cheng"
+	name = "Chiang Kai-Shek"
 	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		Generallissimo_2
+		generallissimo
 	}
 }
 
 create_country_leader = {
-	name = "Mao Tse-Tung"
-	desc = "POLITICS_MAO_ZEDONG_DESC"
-	picture = "GFX_portrait_prc_mao_zedong"
+	name = "Zhang Guotao"
+	desc = "POLITICS_ZHANG_GUOTAO_DESC"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		Deranged_Revolutionary_Zealot
-		Guerilla_Expert_2
+		cornered_fox
 	}
 }
 
@@ -271,33 +241,22 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		Fascist_collaborator
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Weng Wenhao" 
 	desc = "POLITICS_ZHANG_LAN_DESC"
-	picture = "Portrait_China_weng_wenhao.dds"
+	picture = "GFX_portrait_chi_weng_wenhao"
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		liberal_democratic_paragon
+		#
 	}
 }
 
 add_opinion_modifier = { target = PRC modifier = hostile_status }
-
-create_field_marshal = {
-	name = "Chiang Chung-Cheng"
-	picture = "Portrait_China_Chiang_Kai_Shek.dds"
-	traits = { logistics_wizard inflexible_strategist media_personality politically_connected }
-	skill = 5
-    attack_skill = 3
-    defense_skill = 6
-    planning_skill = 3
-    logistics_skill = 5
-}
 
 create_field_marshal = {
 	name = "Tu Yu-ming"

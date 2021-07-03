@@ -66,12 +66,9 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-add_ideas = king_george_v_colonial
-
 1939.1.1 = {
-    remove_ideas = king_george_v_colonial
 	add_political_power = 1198
-	add_ideas = king_george_vi_colonial
+	
 	
 	if = {
 		limit = { has_dlc = "Together for Victory" }
@@ -192,8 +189,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-		technocrat
-		Liberal_Corporatist
+		#
 	}
 }
 
@@ -204,30 +200,29 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		Canadian_Fuhrer
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Tim Buck"
-	desc = "POLITICS_TIM_BUCK_DESC"
-	picture = "Portrait_Canada_Tim_Buck.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		Popular_Resistor
-		Staunch_Stalinist_2
-	}
+    name = "Tim Buck"
+    desc = "POLITICS_TIM_BUCK_DESC"
+    picture = "Portrait_Canada_Tim_Buck.dds"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+        #
+    }
 }
 
 create_country_leader = {
-	name = "John Buchan"
-	desc = "POLITICS_JOHN_BUCHAN_DESC"
-	picture = "r56_John_Buchan.dds"
+	name = "J. S. Woodsworth"
+	desc = "POLITICS_JS_WOODSWORTH_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = centrism
 	traits = {
-		Action_Adventure_Novelist
+		#
 	}
 }
 
@@ -266,7 +261,6 @@ create_corps_commander = {
     planning_skill = 3
     logistics_skill = 5
 }
-
 create_corps_commander = {
 	name = "Bert Hoffmeister"
 	gfx = "GFX_CAN_bert_hoffmeister"

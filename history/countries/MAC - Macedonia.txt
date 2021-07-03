@@ -42,61 +42,13 @@ if = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.6.8"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 47
+	democratic = 33
 	neutrality = 33
-	communism = 20
-}
-
-create_country_leader = {
-	name = "Dositej Stojković"
-	desc = ""
-	picture = "gfx/leaders/MAC/Dositej_Stojkovic.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	marxist_priest
-	social_reformer_2
-	}
-}
-
-create_country_leader = {
-	name = "Dositej Stojković"
-	desc = ""
-	picture = "gfx/leaders/MAC/Dositej_Stojkovic.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	priest
-	falangist_figurehead
-	}
-}
-
-create_country_leader = {
-	name = "Dositej Stojković"
-	desc = ""
-	picture = "gfx/leaders/MAC/Dositej_Stojkovic.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	priest
-	neutrality_social_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Dositej Stojković"
-	desc = ""
-	picture = "gfx/leaders/MAC/Dositej_Stojkovic.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	priest
-	social_reformer
-	}
+	communism = 34
 }

@@ -74,40 +74,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = liberalism
 	traits = {
-	the_academic
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly of Panama"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "pan_council.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-    voice_of_restraint_communist
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly of Panama"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "pan_council.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	voice_of_restraint_neutrality
-	}
-}
-
-create_country_leader = {
-	name = "Legislative Assembly of Panama"
-	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
-	picture = "pan_council.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	voice_of_restraint_fascist
+		#
 	}
 }
 
@@ -117,5 +84,27 @@ create_country_leader = {
 		last_election = "1936.6.7"
 		election_frequency = 48
 		elections_allowed = yes
+	}
+
+	create_country_leader = {
+		name = "Juan Demóstenes Arosemena"
+		desc = "POLITICS_JUAN_DEMOSTENES_AROSEMENA_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
+		expire = "1965.1.1"
+		ideology = liberalism
+		traits = {
+			#
+		}
+	}
+
+	create_country_leader = {
+		name = "July Portocarrero"
+		desc = "POLITICS_JULY_PORTOCARRERO_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_4.dds"
+		expire = "1965.1.1"
+		ideology = marxism
+		traits = {
+			#
+		}
 	}
 }

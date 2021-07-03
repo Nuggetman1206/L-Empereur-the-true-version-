@@ -143,7 +143,6 @@ add_ideas = {
 	closed_economy
 	service_by_requirement
 	partial_economic_mobilisation
-	BS_Illegitimate_Chinese_State
 }
 
 if = {
@@ -161,53 +160,18 @@ if = {
 add_opinion_modifier = { target = CHI modifier = hostile_status }
 
 create_country_leader = {
-	name = "Chiang Chung-Cheng"
-	desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
-	picture = "gfx/leaders/CHI/Portrait_China_Chiang_Kai_Shek.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		Generallissimo_2
-	}
-}
-
-create_country_leader = {
-	name = "Mao Tse-Tung"
+	name = "Mao Zedong"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "GFX_portrait_prc_mao_zedong"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = marxism
 	traits = {
 		cornered_fox
-		Deranged_Revolutionary_Zealot
-		Guerilla_Expert_2
-	}
-}
-
-create_country_leader = {
-	name = "Wang Jingwei"
-	desc = "POLITICS_WANG_JINGWEI_DESC"
-	picture = "gfx/leaders/CHI/Portrait_CHI_Wang_Jingwei.dds"
-	expire = "1965.1.1"
-	ideology = ultranationalism
-	traits = {
-		Fascist_collaborator
-	}
-}
-
-create_country_leader = {
-	name = "Weng Wenhao" 
-	desc = "POLITICS_ZHANG_LAN_DESC"
-	picture = "gfx/leaders/CHI/Portrait_China_weng_wenhao.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		liberal_democratic_paragon
 	}
 }
 
 create_field_marshal = {
-	name = "Mao Tse-Tung"
+	name = "Mao Zedong"
 	gfx = "GFX_portrait_prc_mao_zedong"
 	traits = { defensive_doctrine trait_cautious politically_connected }
 	skill = 4
@@ -218,7 +182,7 @@ create_field_marshal = {
 }
 
 create_corps_commander = {
-	name = "Chu Teh"
+	name = "Zhu De"
 	gfx = "GFX_portrait_prc_zhu_de"
 	traits = { infantry_officer organizer }
 	skill = 4
@@ -229,7 +193,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Chen I"
+	name = "Chen Yi"
 	gfx = "GFX_portrait_prc_chen_yi"
 	traits = { infantry_officer }
 	skill = 3
@@ -240,7 +204,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "P'eng Te-Huai"
+	name = "Peng Dehuai"
 	gfx = "GFX_portrait_prc_peng_dehuai"
 	traits = { infantry_officer trait_mountaineer }
 	skill = 4
@@ -251,7 +215,7 @@ create_corps_commander = {
 }
 
 create_corps_commander = {
-	name = "Lin Piao"
+	name = "Lin Biao"
 	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	traits = { infantry_officer trait_mountaineer }
 	skill = 5

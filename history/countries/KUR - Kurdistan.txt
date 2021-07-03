@@ -1,4 +1,4 @@
-﻿capital = 421
+﻿capital = 800
 
 set_research_slots = 2
 
@@ -117,22 +117,21 @@ set_politics = {
 }
 
 set_popularities = {
-	democratic = 55
+	democratic = 40
 	communism = 25
-	fascism = 20
-	neutrality = 0
+	fascism = 30
+	neutrality = 5
 }
 
 # Qazi Muhammad was leader of the short-lived Marxist uprising in Iranian Kurdistan
 create_country_leader = {
 	name = "Qazi Muhammad"
 	desc = "POLITICS_QAZI_MUHAMMAD_DESC"
-	picture = "gfx/leaders/KUR/QAZI_MUHAMMAD.dds"
+	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-	    council_communist
-		militant_socialist
+		#
 	}
 }
 
@@ -140,11 +139,11 @@ create_country_leader = {
 create_country_leader = {
 	name = "Sheikh Mahmud Barzanji"
 	desc = "POLITICS_SHEIKH_BARZANJI_DESC"
-	picture = "r56_Mahmud_Barzanji.dds"
+	picture = "gfx/leaders/SYR/Portrait_Arabia_Generic_land_1.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-	reformed_monarch
+		#
 	}
 }
 

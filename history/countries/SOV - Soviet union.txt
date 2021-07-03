@@ -9,15 +9,8 @@ if = {
 	}
 }
 
-#Cosmetic tags used (3D models will look for these cosmetic tags when hooking themselves):
-#TUR_communism
-#TUR_democratic
-#TUR_fascism
-#TUR_neutrality
-set_cosmetic_tag = SOV_RED
-
 set_research_slots = 3
-set_stability = 0.6
+set_stability = 0.5
 set_war_support = 0.8
 # Starting tech
 set_technology = {
@@ -78,12 +71,18 @@ if = {
 		mtg_transport = 1
 	}
 }
-#DIPLOMACY
-puppet = TAN
-puppet = MON
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
 
 1939.1.1 = {
-    set_cosmetic_tag = SOV_RED
+
 	add_political_power = 1198
 	
 	#adding ministers, already have 2 set
@@ -160,17 +159,7 @@ puppet = MON
 			modifier = sov_ger_treaty_trade
 		}
 	}
-	add_tech_bonus = {
-		name = med_armor_bonus
-		ahead_reduction = 2
-		technology = basic_medium_tank
-	}
-	add_tech_bonus = {
-		name = armor_bonus
-		bonus = 1.0
-		uses = 2
-		category = armor
-	}
+	give_SOV_armor_research_bonuses = yes
 	#Germany soviet treaty end
 
 	complete_national_focus = SOV_finish_five_year_plan
@@ -270,14 +259,14 @@ set_convoys = 50
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1929.9.12"
-	election_frequency = 99
-	elections_allowed = yes
+	last_election = "1933.7.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 20
+	democratic = 10
 	fascism = 2
-	communism = 78
+	communism = 88
 }
 
 create_faction = Comintern
@@ -289,19 +278,16 @@ add_to_faction = TAN
 add_ideas = {
 	trotskyite_plot
 	home_of_revolution
-	ussr_buff
-	crazy_partisans
 }
 
 create_country_leader = {
-	name = "Iosef Stalin"
+	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
 	picture = "Portrait_Soviet_Joseph_Stalin.dds"
 	expire = "1953.3.1"
 	ideology = stalinism
 	traits = {
-	The_Vozhd
-	Man_of_steel
+		
 	}
 }
 
@@ -310,53 +296,20 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_RODZAEVSKY_DESC"
 	picture = "Portrait_Soviet_Konstantin_Rodzaevsky.dds"
 	expire = "1953.3.1"
-	ideology = nazism
-	traits = {
-		The_Russian_National_Socialist
-	}
-}
-
-create_country_leader = {
-	name = "Alexander Fyodorovich Kerensky"
-	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
-	picture = "Portrait_Alexander_Kerensky.dds"
-	expire = "1953.3.1"
-	ideology = socialism
-	traits = {
-	sharp_tongued_lawyer	
-	}
-}
-
-create_country_leader = {
-	name = "Kirill I"
-	desc = ""
-	picture = "Portrait_Kirill_Romanov.dds"
-	expire = "1938.10.12"
-	ideology = absolute_monarchism
-	traits = {
-		Autocratic_monarch
-	}
-}
-
-create_country_leader = {
-	name = "Vladimir III"
-	desc = ""
-	picture = ""
-	expire = "1953.3.1"
-	ideology = absolute_monarchism
+	ideology = fascism_ideology
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Konstantin Rokossovsky"
-	desc = ""
-	picture = "Portrait_Soviet_Konstantin_Rokossovsky.dds"
+	name = "Alexander Fyodorovich Kerensky"
+	desc = "POLITICS_ALEXANDER_FYODOROVICH_KERENSKY_DESC"
+	picture = "Portrait_Soviet_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = moderatism
+	ideology = socialism
 	traits = {
-	revolutionary_general	
+		
 	}
 }
 
@@ -379,16 +332,6 @@ create_corps_commander = {
 	logistics_skill = 5
 }
 
-create_corps_commander = {
-	name = "Pavel Batov"
-	picture = "Portrait_Pavel_Batov.dds"
-	traits = { armor_officer infantry_officer war_hero swamp_fox }
-	skill = 4
-	attack_skill = 5
-	defense_skill = 3
-	planning_skill = 5
-	logistics_skill = 3
-}
 create_corps_commander = {
 	name = "Konstantin Rokossovsky"
 	id = 402
@@ -871,6 +814,36 @@ create_navy_leader = {
 	coordination_skill = 2
 }
 
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	create_operative_leader = {
+		name = "Alexander Radó"
+		GFX = GFX_portrait_alexander_rado
+		traits = { operative_natural_orator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV HUN }
+	}
+
+	create_operative_leader = {
+		name = "Kim Philby"
+		GFX = GFX_portrait_kim_philby
+		traits = { operative_double_agent operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV ENG }
+	}
+	create_operative_leader = {
+		name = "Richard Sorge"
+		GFX = GFX_portrait_richard_sorge
+		traits = { operative_well_groomed }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { SOV GER }
+	}
+}
 
 ### VARIANTS ###
 # 1936 Start #

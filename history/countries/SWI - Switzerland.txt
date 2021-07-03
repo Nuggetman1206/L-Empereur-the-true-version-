@@ -16,8 +16,6 @@ set_technology = {
 	fuel_silos = 1
 }
 
-puppet = LIE
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -68,8 +66,6 @@ puppet = LIE
 	}
 }
 
-give_guarantee = LIE
-
 set_politics = {
 	ruling_party = democratic
 	last_election = "1935.10.27"
@@ -94,7 +90,6 @@ set_popularities = {
 add_ideas = {
 	neutrality_idea	
 	limited_conscription
-	BS_Swiss_Integrity
 }
 
 set_stability = 0.85
@@ -106,25 +101,25 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	voice_of_restraint
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
+	name = "Ernest Béuin"
+	desc = "POLITICS_ERNST_BEGUIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-		voice_of_restraint_neutrality
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Rolf Henne"
-	desc = ""
-	picture = "r56_Rolf_Henne.dds" 
+	name = "Dr. Max Leo Keller"
+	desc = "POLITICS_MAX_LEO_KELLER_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -133,23 +128,23 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
+	name = "Fritz Platten"
+	desc = "POLITICS_FRITZ_PLATTEN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		voice_of_restraint_communist
+		#
 	}
 }
 
 create_corps_commander = {
 	name = "Henri Guisan"
-	picture = "r56_Henri_Guisan.dds"
-	traits = {  winter_specialist inflexible_strategist }
-	skill = 4
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  winter_specialist }
+	skill = 3
 	attack_skill = 2
-	defense_skill = 5
+	defense_skill = 3
 	planning_skill = 3
-	logistics_skill = 3
+	logistics_skill = 2
 }

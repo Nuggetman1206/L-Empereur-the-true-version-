@@ -13,9 +13,6 @@ set_technology = {
 }
 set_war_support = 0.1
 set_stability = 0.8
-	add_ideas = {
-		duchess_charlotte
-	}
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -87,12 +84,11 @@ set_popularities = {
 	create_country_leader = {
 		name = "Pierre Dupong"
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
-		picture = "portrait_lux_pierre_dupong.dds"
+		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 		expire = "1965.1.1"
 		ideology = conservatism
 		traits = {
-		fox_of_finances
-		economist
+			#
 		}
 	}
 }
@@ -104,40 +100,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	skilled_lawyer
-	rearmer
-	}
-}
-
-create_country_leader = {
-	name = "Damian Kratzenberg"
-	desc = ""
-	picture = "r56_Damian_Kratzenberg.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-	rearmer
-	}
-}
-
-create_country_leader = {
-	name = "Charles Marx"
-	desc = ""
-	picture = "r56_Charles_Marx.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	Communist_Lawyer
-	}
-}
-
-	create_country_leader = {
-	name = "Charlotte"
-	desc = ""
-	picture = "Duchess_Charlotte.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-		popular_duchess
+		#
 	}
 }

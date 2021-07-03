@@ -51,14 +51,3 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
-
-create_country_leader = {
-	name = "Dobroslav Jevđević"
-	desc = ""
-	picture = "r56_Dobroslav_Jevdevic.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		#
-	}
-}

@@ -222,12 +222,9 @@ set_popularities = {
 	communism = 3
 }
 
-	6 = { set_state_flag = netherlands_can_core }
-	1435 = { set_state_flag = netherlands_can_core }
-	1089 = { set_state_flag = netherlands_can_core }
-
 set_convoys = 150
 set_stability = 0.75
+
 #create_country_leader = {
 #	name = "Dirk Jan de Geer"
 #	desc = "POLITICS_DIRK_JAN_DE_GEER_DESC"
@@ -272,46 +269,16 @@ create_country_leader = {
 	}
 }
 
-#create_country_leader = {
-#	name = "Willem Schermerhorn"
-#	desc = "POLITICS_WIM_SCHERMERHORN_DESC"
-#	picture = "GFX_portrait_hol_wim_schermerhorn"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		#
-#	}
-#}
-
 create_country_leader = {
-	name = "Wilhelmina I"
-	desc = "POLITICS_WILHELMINA_DESC"
-	picture = "portrait_hol_wilhelmina.dds"
+	name = "Willem Schermerhorn"
+	desc = "POLITICS_WIM_SCHERMERHORN_DESC"
+	picture = "GFX_portrait_hol_wim_schermerhorn"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	female = yes
+	ideology = centrism
 	traits = {
-		popular_figurehead
+		#
 	}
 }
-
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-create_country_leader = {
-	name = "Prince Bernhard"
-	desc = ""
-	picture = "portrait_hol_prins_bernhard.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-		popular_figurehead2
-		aviation_enthusiast
-	}
-}
-}
-
 
 create_field_marshal = {
 	name = "Izaak Reijnders"

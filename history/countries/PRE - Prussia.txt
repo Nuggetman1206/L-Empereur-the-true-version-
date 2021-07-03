@@ -1,4 +1,4 @@
-﻿capital = 1105
+﻿capital = 64
 
 # Starting tech
 set_technology = {
@@ -124,58 +124,15 @@ set_politics = {
 
 }
 set_popularities = {
-	democratic = 10
-	fascism = 30
-	neutrality = 50
-	communism = 10
+	democratic = 30
+	fascism = 10
+	communism = 60
 }
 
 add_ideas = {
 }
 
-create_country_leader = {
-	name = "Hermann Göring"
-	desc = ""
-	picture = "Portrait_Germany_Hermann_Goring.dds"
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-		Iron_Knight
-	}
-}
 
-create_country_leader = {
-	name = "Gustav Bauer"
-	desc = ""
-	picture = "Portrait_Prussia_Gustav.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Wilhelm Pieck"
-	desc = ""
-	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Franz von Papen"
-	desc = ""
-	picture = "Franz_von_Papen.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-		Autocratic_Diplomat
-	}
-}
 
 #create_country_leader = {
 #	name = "Dennis Fredauer"
@@ -203,23 +160,13 @@ create_country_leader = {
 #create_country_leader = {
 #	name = "Ernst Thälmann"
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "gfx/leaders/PRE/Ernst_Thalmann.dds"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
 #	ideology = stalinism
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet
 #		political_prisoner
-#	}
-#}
-#create_country_leader = {
-#	name = "Wilhelm II"
-#	desc = "POLITICS_WILHELM_II_DESC"
-#	picture = GFX_portrait_ger_wilhelm_ii
-#	expire = "1965.1.1"
-#	ideology = despotism
-#	traits = {
-#		anti_democrat imperial_connections
 #	}
 #}
 

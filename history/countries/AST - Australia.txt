@@ -66,11 +66,11 @@ if = {
 
 	add_to_tech_sharing_group = commonwealth_research
 }
-add_ideas = king_george_v_colonial
+
 1939.1.1 = {
 	add_political_power = 1198
 	oob = "AST_1939"
-	add_ideas = king_george_vi_colonial
+	
 	if = {
 		limit = { has_dlc = "Together for Victory" }
 		complete_national_focus = AST_additional_militia_training
@@ -189,31 +189,9 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		editor
+		#
 	}
 }
-
-create_country_leader = {
-	name = "Joseph Lyons"
-	desc = ""
-	picture = "r56_Joseph_Lyons.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-		Honest_Joe
-	}
-}
-
-#create_country_leader = {
-#	name = "John Curtin"
-#	desc = "POLITICS_JOHN_CURTIN_DESC"
-#	picture = "Portrait_Australia_John_Curtin.dds"
-#	expire = "1965.1.1"
-#	ideology = socialism
-#	traits = {
-#		editor
-#	}
-#}
 
 create_country_leader = {
 	name = "Eric Campbell"
@@ -222,7 +200,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		Fascist_Veteran_Paramilitarist
+		#
 	}
 }
 
@@ -231,44 +209,33 @@ create_country_leader = {
 	desc = "POLITICS_RICHARD_DIXON_DESC"
 	picture = "GFX_AST_richard_dixon"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = stalinism
 	traits = {
-		Trade_Unionist
+		#
 	}
 }
-
-#create_country_leader = {
-#	name = "Earle Page"
-#	desc = "POLITICS_EARLE_PAGE_DESC"
-#	picture = "GFX_AST_earle_page"
-#	expire = "1965.1.1"
-#	ideology = centrism
-#	traits = {
-#		Treasurer
-#	}
-#}
 
 create_country_leader = {
-	name = "Isaac Isaacs"
-	desc = ""
-	picture = "r56_Isaac_Isaacs.dds"
+	name = "Earle Page"
+	desc = "POLITICS_EARLE_PAGE_DESC"
+	picture = "GFX_AST_earle_page"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = centrism
 	traits = {
-		Frugal_Governor
+		#
 	}
 }
 
-#create_country_leader = {
-#	name = "Rod Hull"
-#	desc = ""
-#	picture = "Portrait_Australia_Rod_Hull.dds"
-#	expire = "1965.1.1"
-#	ideology = despotism
-#	traits = {
-#		#
-#	}
-#}
+create_country_leader = {
+	name = "Rod Hull"
+	desc = ""
+	picture = "Portrait_Australia_Rod_Hull.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		#
+	}
+}
 
 set_convoys = 100
 
@@ -283,17 +250,6 @@ set_convoys = 100
 	set_popularities = {
 		democratic = 99
 		communism = 1
-	}
-	
-	create_country_leader = {
-		name = "Robert Menzies"
-		desc = ""
-		picture = "r56_Robert_Menzies.dds"
-		expire = "1965.1.1"
-		ideology = market_liberalism
-		traits = {
-			Developer
-		}
 	}
 
 	set_convoys = 100

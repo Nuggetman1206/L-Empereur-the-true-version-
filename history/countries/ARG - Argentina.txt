@@ -145,72 +145,74 @@ set_popularities = {
 create_country_leader = {
 	name = "Agustín Pedro Justo"
 	desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
-	picture = "justo.dds"
+	picture = "Portrait_Argentina_Agustin_Pedro_Justo.dds"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-	dealbroker
-	economic_reformer
-	}
-}
-create_country_leader = {
-	name = "Marcelo Torcuato de Alvear"
-	desc = ""
-	picture = "r56_Marcelo_Torcuato_de_Alvear.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	liberal_democratic_paragon
-	liberal_journalist
-	}
-}
-create_country_leader = {
-	name = "Nimio de Anquín"
-	desc = ""
-	picture = "r56_Nimio_de_Anquin.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-	falangist_industrialist
-	falangist_syndicalist
-	}
-}
-create_country_leader = {
-	name = "Fanny Jabcovsky"
-	desc = ""
-	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	first_lady
-	la_pasionaria
+		#
 	}
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = neutrality
 		last_election = "1937.9.5"
 		election_frequency = 108
 		elections_allowed = yes
 	}
 
 	set_popularities = {
-		democratic = 78
+		democratic = 5
 		fascism = 5
 		communism = 12
-		neutrality = 5
+		neutrality = 78
 	}
+
+	create_country_leader = {
+		name = "Roberto María Ortiz"
+		desc = "POLITICS_ROBERTO_MARIA_ORTIZ_DESC"
+		picture = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds"
+		expire = "1965.1.1"
+		ideology = despotism
+		traits = {
+			#
+		}
+	}
+}
+
+
 create_country_leader = {
-	name = "Roberto María Ortiz"
-	desc = ""
-	picture = "r56_Roberto_M_Ortiz.dds"
+	name = "Nimo de Anquín"
+	desc = "POLITICS_NIMO_DE_ANQUIN_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = fascism_ideology
 	traits = {
-	social_reformer
+		#
 	}
-}	
+}
+
+create_country_leader = {
+	name = "Marcelo T. de Alvear"
+	desc = "POLITICS_MARCELO_ALVEAR_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fanny Jabcovsky"
+	desc = "POLITICS_FANNY_JABCOVSKY_DESC"
+	picture = "Portrait_Argentina_Fanny_Jabcovsky.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	female = yes
+	traits = {
+		#
+	}
 }
 
 create_field_marshal = {

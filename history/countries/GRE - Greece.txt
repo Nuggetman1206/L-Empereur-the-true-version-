@@ -333,7 +333,7 @@ if = {
 		expire = "1965.1.1"
 		ideology = centrism
 		traits = {
-			puppet_prime_minister
+			monarchist_puppet
 		}
 	}
 	
@@ -412,7 +412,7 @@ if = {
 		desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 		expire = "1965.1.1"
-		ideology = ultranationalism
+		ideology = nazism
 		traits = {
 			#
 		}

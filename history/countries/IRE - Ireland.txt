@@ -12,11 +12,6 @@ set_technology = {
 
 set_convoys = 10
 
-if = { 
-	limit = { has_dlc = "Together for Victory" }
-	set_cosmetic_tag = IRE_ENG
-}
-
 1939.1.1 = {
 
 	add_political_power = 1198
@@ -78,7 +73,6 @@ set_popularities = {
 }
 
 1939.1.1 = {
-    drop_cosmetic_tag = yes
 	set_politics = {
 		ruling_party = democratic
 		last_election = "1938.6.17"
@@ -93,43 +87,40 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		man_of_the_nation
-		fierce_patriot
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Eoin O'Duffy"
 	desc = "POLITICS_EOIN_ODUFFY_DESC"
-	picture = "r56_Eoin_O_Duffy.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		Knight_of_Terror
-		war_profiteer
+		#
 	}
 }
 
 create_country_leader = {
 	name = "James Larkin"
 	desc = "POLITICS_JAMES_LARKIN_DESC"
-	picture = "r56_James_Larkin.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		backroom_windbag
-		Syndicalist_Paramilitarist
+		#
 	}
 }
 
 create_country_leader = {
-	name = "Richard Mulcahy"
-	desc = "POLITICS_RICHARD_MULCAHY_DESC"
-	picture = "r56_Richard_Mulcahy.dds"
+	name = "William Norton"
+	desc = "POLITICS_JAMES_LARKIN_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
 	ideology = centrism
 	traits = {
-		lieutenant_of_industry
+		#
 	}
 }
 
@@ -141,16 +132,5 @@ create_corps_commander = {
 	attack_skill = 2
 	defense_skill = 2
 	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Eoin O'Duffy"
-	portrait_path = "r56_Eoin_O_Duffy.dds"
-	traits = { harsh_leader politically_connected }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
 	logistics_skill = 2
 }

@@ -1,4 +1,4 @@
-﻿capital = 76
+﻿capital = 84
 
 set_research_slots = 3
 
@@ -47,46 +47,13 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leontin Sălăjan"
-	desc = ""
-	picture = "gfx/leaders/ROM/r56_portrait_ROM_Leontin_Salajan.dds"
+	name = "Iuliu Maniu"
+	desc = "POLITICS_IULIU_MANIU_DESC"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = centrism
 	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Leontin Sălăjan"
-	desc = ""
-	picture = "gfx/leaders/ROM/r56_portrait_ROM_Leontin_Salajan.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Leontin Sălăjan"
-	desc = ""
-	picture = "gfx/leaders/ROM/r56_portrait_ROM_Leontin_Salajan.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Horia Sima"
-	desc = ""
-	picture = "gfx/leaders/ROM/r56_portrait_ROM_Horia_Sima.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		
+		#
 	}
 }
 

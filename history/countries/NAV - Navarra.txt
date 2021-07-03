@@ -55,7 +55,7 @@ set_convoys = 20
 }
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.5.3"
+	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -66,48 +66,15 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "José Antonio Aguirre"
-	desc = "POLITICS_JOSE_AGUIRRE_DESC"
-	picture = "gfx/leaders/SPA/Portrait_Jose_Aguirre.dds"
+	name = "Ramón Ormazábal Tife"
+	picture = "gfx//leaders//Europe//Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-	POL_compassionate_nationalist
-	assiduous_democratiser
-	}
+	ideology = marxism
 }
 
 create_country_leader = {
-	name = "Manuel Hedilla"
-	desc = "POLITICS_MANUEL_HEDILLA_DESC"
-	picture = "gfx/leaders/SPA/Portrait_Manuel_Hedilla.dds"
+	name = "Luis Urrengoetxea"
+	picture = "gfx//leaders//Europe//portrait_europe_generic_4.dds"
 	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		falangist_industrialist
-	    regional_traditionalist_leader	
-	}
-}
-
-create_country_leader = {
-	name = "Dolores Ibárruri"
-	desc = "POLITICS_DOLORES_IBARRURI_DESC"
-	picture = "gfx/leaders/SPR/Portrait_Dolores_Ibarruri.dds"
-	expire = "1965.1.1"
-	ideology = anarchist_communism
-	traits = {
-	la_pasionaria
-	freedom_fighter	
-	}
-}
-create_country_leader = {
-	name = "Dolores Ibárruri"
-	desc = "POLITICS_DOLORES_IBARRURI_DESC"
-	picture = "gfx/leaders/SPR/Portrait_Dolores_Ibarruri.dds"
-	expire = "1965.1.1"
-	ideology = anarchism
-	traits = {
-	social_revolutionary
-	freedom_fighter
-	}
+	ideology = liberalism
 }

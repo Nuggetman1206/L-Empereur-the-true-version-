@@ -113,9 +113,9 @@ set_convoys = 5
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1934.2.25"
+	last_election = "1932.5.21"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
 	democratic = 20
@@ -129,7 +129,7 @@ set_popularities = {
 		ruling_party = neutrality
 		last_election = "1938.2.25"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 }
 
@@ -140,43 +140,10 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
-		anti_fascist_autocrat
+		#
 	}
 }
 
-create_country_leader = {
-	name = "Jaan Anvelt"
-	desc = "POLITICS_KARL_SARE_DESC"
-	picture = "r56_Karl_Sare.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-	ambitious_union_boss
-	}
-}
-
-create_country_leader = {
-	name = "Artur Sirk"
-	desc = "POLITICS_ARTUR_SIRK_DESC"
-	picture = "Artur_Sirk.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	anti_communist_crusader
-	Fascist_Veteran_Paramilitarist
-	}
-}
-
-create_country_leader = {
-	name = "Jaan Tönisson"
-	desc = "POLITICS_JAAN_TONISSON_DESC"
-	picture = "r56_Jaan_Tonisson.dds"
-	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-	liberal_journalist
-	}
-}
 
 ### VARIANTS ###
 # 1939 Start #

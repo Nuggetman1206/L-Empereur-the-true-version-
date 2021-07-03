@@ -12,17 +12,10 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
+
 	JAP_zaibatsus
 	JAP_duplicate_research_efforts
 	JAP_militarism
-	king_hirohito
-}
-
-every_state = {
-limit = {
-is_core_of = KOR
-}
-force_disable_resistance = JAP
 }
 
 609 = {
@@ -33,81 +26,17 @@ force_disable_resistance = JAP
 }
 
 527 = {
-	force_disable_resistance = JAP
+	start_resistance = yes
 	set_compliance = 5
 	set_resistance = 5
+	set_garrison_strength = 1.0
 }
 
 525 = {
-	force_disable_resistance = JAP
+	start_resistance = yes
 	set_compliance = 5
 	set_resistance = 5
-}
-
-903 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-904 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-905 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-906 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-907  = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-908 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-909  = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-910 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-911 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-1108 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
-}
-
-1109 = {
-	force_disable_resistance = JAP
-	set_compliance = 5
-	set_resistance = 5
+	set_garrison_strength = 1.0
 }
 
 745 = {
@@ -416,14 +345,6 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_puppet
 	}
-	set_autonomy = {
-		target = PGR
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = RGR
-		autonomous_state = autonomy_puppet
-	}
 }
 if = {
 	limit = { 
@@ -437,44 +358,16 @@ if = {
 		target = MAN
 		autonomous_state = autonomy_wtt_imperial_protectorate
 	}
-	set_autonomy = {
-		target = PGR
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-	set_autonomy = {
-		target = RGR
-		autonomous_state = autonomy_wtt_imperial_protectorate
-	}
-}
-
-1939.1.1 = {
-			kill_ideology_leader = neutrality
-			kill_ideology_leader = fascism
-			kill_ideology_leader = democratic
-			kill_ideology_leader = fascism			
-			set_politics = {
-				ruling_party = fascism
-				last_election = "1937.4.30"
-				election_frequency = 60
-				elections_allowed = yes
-			}
-set_popularities = {
-	fascism = 44
-	democratic = 30
-	neutrality = 26
-}			
 }
 
 set_politics = {
-	ruling_party = neutrality
-	last_election = "1932.2.20"
+	ruling_party = fascism
+	last_election = "1936.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	fascism = 17
-	democratic = 35
-	neutrality = 48
+	fascism = 100
 }
 
 create_country_leader = {
@@ -482,7 +375,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = ultranationalism
+	ideology = fascism_ideology
 	traits = {
 		warrior_code
 		emperor_showa
@@ -492,64 +385,12 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Hideki Tojo"
-	desc = "POLITICS_TOJO_DESC"
-	picture = "r56_Hideki_Tojo.dds"
-	expire = "1989.1.1"
-	ideology = ultranationalism
-	traits = {
-		Chief_of_Terror
-		Harsh_Leader_Butcher
-		warmonger
-		hawk
-	}
-}
-
-create_country_leader = {
-	name = "Fumimaro Konoe"
-	desc = ""
-	picture = "Portrait_Japan_Fumimaro_Konoe.dds"
-	expire = "1941.10.18"
-	ideology = ultranationalism
-	traits = {
-		warmongering
-		warmonger
-		hardened_officer
-	}
-}
-
-create_country_leader = {
-	name = "Kōki Hirota"
-	desc = ""
-	picture = "koki.dds"
-	expire = "1937.6.4"
-	ideology = national_populism
-	traits = {
-		civil_government
-		voice_of_restraint
-	}
-}
-
-create_country_leader = {
-	name = "Keisuke Okada"
-	desc = ""
-	picture = "Portrait_Japan_Keisuke_Okada.dds"
-	expire = "1936.3.8"
-	ideology = falangism
-	traits = {
-		Samurai_Lineage
-		moderate
-	}
-}
-
-create_country_leader = {
 	name = "Kyuichi Tokuda"
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_kyuichi_tokuda"
 	expire = "1989.1.1"
 	ideology = marxism
 	traits = {
-		Communist_Lawyer
 	}
 }
 
@@ -560,43 +401,6 @@ create_country_leader = {
 	expire = "1989.1.1"
 	ideology = liberalism
 	traits = {
-		social_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Kōki Hirota"
-	desc = ""
-	picture = "koki.dds"
-	expire = "1937.6.4"
-	ideology = conservatism
-	traits = {
-		civil_government
-		voice_of_restraint
-		connected_citizen
-	}
-}
-
-create_country_leader = {
-	name = "Sadao Araki"
-	desc = ""
-	picture = "Portrait_Japan_Sadao_Araki.dds"
-	expire = "1989.1.1"
-	ideology = oligarchism
-	traits = {
-		Samurai_Lineage
-	}
-}
-
-create_country_leader = {
-	name = "Keisuke Okada"
-	desc = ""
-	picture = "Portrait_Japan_Keisuke_Okada.dds"
-	expire = "1937.4.5"
-	ideology = moderatism
-	traits = {
-		Samurai_Lineage
-		moderate
 	}
 }
 
@@ -611,17 +415,6 @@ create_corps_commander = {
 	defense_skill = 5
 	planning_skill = 3
 	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Hideki Tojo"
-	picture = "r56_Hideki_Tojo.dds"
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-	traits = { politically_connected JAP_samurai_lineage harsh_leader }
 }
 
 create_field_marshal = {
@@ -1801,35 +1594,6 @@ if = {
 					rear_1_custom_slot = empty
 				}
 			}
-		}
-		if = {
-			limit = { 
-				not = {
-					has_dlc = "Waking the Tiger"
-					has_dlc = "Together for Victory"
-				}
-			}
-			set_autonomy = {
-				target = PGR
-				autonomous_state = autonomy_puppet
-			}
-			set_autonomy = {
-				target = RGR
-				autonomous_state = autonomy_puppet
-			}
-		}
-		if = {
-			limit = {
-				has_dlc = "Waking the Tiger"
-			}
-			set_autonomy = {
-				target = PGR
-				autonomous_state = autonomy_wtt_imperial_protectorate
-			}
-			set_autonomy = {
-				target = RGR
-				autonomous_state = autonomy_wtt_imperial_protectorate
-			}
-		}
+		}	
 	}
 	

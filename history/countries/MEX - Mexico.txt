@@ -183,30 +183,6 @@ if = {
 			complete_national_focus = production_effort
 		}
 	}
-set_politics = {
-	ruling_party = democratic
-	last_election = "1934.7.1"
-	election_frequency = 72
-	elections_allowed = yes
-}
-set_popularities = {
-	democratic = 45
-	fascism = 11
-	communism = 31
-	neutrality = 13
-}
-create_country_leader = {
-	name = "Lázaro Cárdenas"
-	desc = "POLITICS_LAZARO_CARDENAS_DESC"
-	picture = "Portrait_Mexico_Lazaro_Cardenas.dds"
-	expire = "1965.1.1"
-	ideology = socialism
-	traits = {
-	economic_organizer
-	refounder_of_mexico
-	liberal_democratic_paragon
-	}
-}	
 }
 
 set_politics = {
@@ -229,7 +205,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = moderatism
 	traits = {
-	economic_organizer
+		#
 	}
 }
 
@@ -251,7 +227,7 @@ create_country_leader = { # Exiled until 1935 following a rebellion attempt, all
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	liberal_journalist
+		#
 	}
 }
 

@@ -1,4 +1,4 @@
-﻿capital = 1220
+﻿capital = 275
 
 oob = "SAF_1936"
 
@@ -54,12 +54,12 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 	add_opinion_modifier = { target = ENG modifier = SAF_anti_british_sentiment }
 }
-add_ideas = king_george_v_colonial
+
 1939.1.1 = {
 
 	add_political_power = 1198
 	oob = "SAF_1939"
-	add_ideas = king_george_vi_colonial
+	
 	if = {
 		limit = { has_dlc = "Together for Victory" }
 		complete_national_focus = SAF_special_service_battalion
@@ -133,84 +133,60 @@ add_ideas = king_george_v_colonial
 
 set_convoys = 25
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.5.17"
 	election_frequency = 60
 	elections_allowed = yes
 }
 set_popularities = {
-	neutrality = 40
-	democratic = 33
-	fascism = 22
+	democratic = 75
+	fascism = 20
 	communism = 5
 }
 
 create_country_leader = {
-	name = "George Edwin Brink"
-	desc = "POLITICS_GEORGE_EDWIN_BRINK_DESC"
-	picture = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-	hardened_officer
-	}
-} 
-
-create_country_leader = {
-		name = "Jan Smuts"
-		desc = "POLITICS_JAN_SMUTS_DESC"
-		picture = "gfx/leaders/SAF/Portrait_SouthAfrica_Jan_Smuts.dds"
-		expire = "1965.1.1"
-		ideology = reactionary_conservatism
-		traits = {
-			staunch_globalist
-		}
-}
-
-create_country_leader = {
-	name = "George Edwin Brink"
-	desc = "POLITICS_GEORGE_EDWIN_BRINK_DESC"
-	picture = "gfx/leaders/SAF/Portrait_South_Africa_George_Edwin_Brink.dds"
+	name = "J. B. M. Hertzog"
+	desc = "POLITICS_J_B_M_HERTZOG_DESC"
+	picture = "GFX_SAF_james_hertzog"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-	hardened_officer
-	}
-} 
-
-create_country_leader = {
-	name = "J. B. M. Hertzog"
-	desc = "POLITICS_J_B_M_HERTZOG_DESC"
-	picture = "gfx/leaders/SAF/Portrait_South_Africa_James_Hertzog.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		anti_anglo_isolationist
+		#
 	}
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = neutrality
+		ruling_party = democratic
 		last_election = "1938.5.18"
 		election_frequency = 60
 		elections_allowed = yes
 	}
 	set_popularities = {
-		democratic = 41
-		neutrality = 44
-		fascism = 3
-		communism = 12
+		democratic = 100
+	}
+
+	# Took office 5 days after this date
+	create_country_leader = {
+		name = "Jan Smuts"
+		desc = "POLITICS_JAN_SMUTS_DESC"
+		picture = "Portrait_SouthAfrica_Jan_Smuts.dds"
+		expire = "1965.1.1"
+		ideology = conservatism
+		traits = {
+			#
+		}
 	}
 }
+
 create_country_leader = {
-	name = "J. F. J. van Rensburg"
-	desc = ""
-	picture = "Johannes_van_Rensburg.dds"
+	name = "D. F. Malan"
+	desc = "POLITICS_DF_MALAN_DESC"
+	picture = "GFX_SAF_daniel_malan"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		sharp_lawyer
+		#
 	}
 }
 
@@ -221,19 +197,19 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		Colonial_Communist_2
+		#
 	}
 }
 
-create_corps_commander = {
-	name = "Jan Smuts"
-	picture = "Portrait_SouthAfrica_Jan_Smuts.dds"
-	traits = { politically_connected trait_mountaineer }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 4
+create_country_leader = {
+	name = "Pixley Ka Isaka Seme"
+	desc = "POLITICS_PIXLEY_SEME_DESC"
+	picture = "gfx/leaders/Africa/Portrait_Africa_Generic_3.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		#
+	}
 }
 
 create_corps_commander = {

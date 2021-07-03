@@ -80,11 +80,11 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Son Ngoc Minh" 
+	name = "Pol Pot" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
 	expire = "1953.3.1"
-	ideology = leninism #insanity
+	ideology = anarchist_communism #insanity
 	traits = {
 		
 	}
@@ -113,28 +113,5 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Sisowath Monivong" 
-	desc = ""
-	picture = "r56_Sisowath_Monivong.dds"
-	expire = "1953.3.1"
-	ideology = absolute_monarchism
-	traits = {
-		Puppet_King
-	}
-}
-
-create_country_leader = {
-	name = "Sisowath Monivong" 
-	desc = ""
-	picture = "r56_Sisowath_Monivong.dds"
-	expire = "1953.3.1"
-	ideology = ultranationalism
-	traits = {
-		Puppet_King
-	}
-}
-
 #couldnt find anything historical on fascism
-#The above text i presume is by paradox. How the fuck do you fail at that. -Nickels
 

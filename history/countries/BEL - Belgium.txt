@@ -1,10 +1,10 @@
-﻿capital = 1435
+﻿capital = 6
 
 oob = "BEL_1936"
 
 set_research_slots = 3
-set_stability = 0.9
-set_war_support = 0.5 #we see what you are doing there Adolf
+set_stability = 0.8
+set_war_support = 0.3 #we see what you are doing there Adolf
 
 set_technology = {
 	infantry_weapons = 1
@@ -17,13 +17,6 @@ set_technology = {
 	trench_warfare = 1
 	fuel_silos = 1
 	fuel_refining = 1
-}
-
-add_ideas = {
-	king_leopold_iii
-	BEL_public_pacifism
-	BEL_divided
-	BEL_monarch
 }
 
 1939.1.1 = {
@@ -114,58 +107,35 @@ set_convoys = 80
 set_stability = 0.75
 
 create_country_leader = {
-	name = "Paul Van Zeeland"
-	desc = "POLITICS_PAUL_VAN_ZEELAND_DESC"
-	picture = "Portrait_Belgium_Paul_Van_Zeeland.dds"
+	name = "Hubert Pierlot"
+	desc = "POLITICS_HUBERT_PIERLOT_DESC"
+	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
 	expire = "1965.1.1"
-	ideology = market_liberalism
+	ideology = conservatism
 	traits = {
-		banker
-		education_reformer
+		#
 	}
 }
-
-#create_country_leader = {
-#	name = "Hubert Pierlot"
-#	desc = "POLITICS_HUBERT_PIERLOT_DESC"
-#	picture = "Portrait_Belgium_Hubert_Pierlot.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#		#
-#	}
-#}
 
 create_country_leader = {
 	name = "Joseph Jacquemotte"
 	desc = "POLITICS_JOSEPH_JACQUEMOTTE_DESC"
-	picture = "Portrait_Belgium_Joseph_Jacquemotte.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
 	ideology = anarchist_communism
 	traits = {
-		editor
+		#
 	}
 }
 
 create_country_leader = {
 	name = "Léon Degrelle"
 	desc = "POLITICS_LEON_DEGRELLE_DESC"
-	picture = "Portrait_Belgium_Leon_Degrelle.dds"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = rexism
 	traits = {
-		eager_collaborator
-	}
-}
-
-create_country_leader = {
-	name = "Leopold III"
-	desc = "POLITICS_LEOPOLD_III_DESC"
-	picture = "Portrait_Belgium_Leopold_iii.dds"
-	expire = "1965.1.1"
-	ideology = constitutional_monarchism
-	traits = {
-		Unpopular_Monarch_3
+		#
 	}
 }
 

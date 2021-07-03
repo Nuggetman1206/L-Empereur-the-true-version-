@@ -9,14 +9,6 @@ if = {
 	}
 }
 
-set_party_name = { 
-    ideology = neutrality 
-    long_name = POL_neutrality_party_zamek_long 
-    name = POL_neutrality_party_zamek 
-}
-
-add_opinion_modifier = { target = HUN modifier = pol_hun_brother }	
-
 set_research_slots = 3
 
 # Starting tech
@@ -105,7 +97,6 @@ if = {
 		#laws
 		limited_conscription
 		partial_economic_mobilisation
-		figurehead_ignancy_moscicki
 	}
 
 	oob = "POL_1939"
@@ -180,132 +171,30 @@ if = {
 				plane_reliability_upgrade = 1
 		}
 	}
-	puppet = DAN
-create_country_leader = { #Becomes leader in may with the event bs.727
-	name = "Felicjan Sławoj Składkowski"
-	desc = ""
-	picture = "felicjan_slawoj_skladkowski.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		civilian_focused_administrator
-	}
-}	
 }
 
 
 set_convoys = 10
 
-add_ideas = { 
-sanacja_gov
-crazy_partisans
-figurehead_ignancy_moscicki
-}
-
 set_politics = {
 	ruling_party = neutrality
 	last_election = "1935.9.8"
 	election_frequency = 36
-	elections_allowed = yes
+	elections_allowed = no
 }
 set_popularities = {
-	democratic = 39
-	fascism = 12
-	communism = 3
-	neutrality = 46
+	democratic = 18
+	fascism = 15
+	communism = 2
+	neutrality = 65
 }
 
 1939.1.1 = {
 	set_popularities = {
-		democratic = 45
-		fascism = 0
-		communism = 6
-		neutrality = 49
-	}
-set_politics = {
-	ruling_party = neutrality
-	last_election = "1938.11.6"
-	election_frequency = 36
-	elections_allowed = yes
-}	
-#create_country_leader = {
-#	name = "Ignacy Mościcki"
-#	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
-#	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
-#	expire = "1965.1.1"
-#	ideology = conservatism
-#	traits = {
-#		Oldest_Pilsudskite2
-#	}
-#}	
-
-create_country_leader = {
-	name = "Felicjan Sławoj Składkowski"
-	desc = ""
-	picture = "felicjan_slawoj_skladkowski.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		civilian_focused_administrator
-	}
-}
-
-create_country_leader = {
-	name = "Felicjan Sławoj Składkowski"
-	desc = ""
-	picture = "felicjan_slawoj_skladkowski.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		civilian_focused_administrator
-	}
-}
-
-}
-
-create_country_leader = {
-	name = "Bolesław Wieniawa-Długoszowski"
-	desc = "POLITICS_BOLESLAW_WIENIAWA_DLUGOSZOWSKI_DESC"
-	picture = "gfx/leaders/POL/dlug.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-	polish_legionary
-	national_liberator
-	}
-}
-
-create_country_leader = {
-	name = "Tadeusz Bór-Komorowski"
-	desc = "POLITICS_TADEUSZ_BOR_KOMOROWSKI_DESC"
-	picture = "gfx/leaders/POL/Tadeusz_Komorowski.dds"
-	expire = "1965.1.1"
-	ideology = centrism
-	traits = {
-	polish_legionary
-	national_liberator
-	}
-}
-
-create_country_leader = {
-	name = "Walery Sławek"
-	desc = "POLITICS_WALERY_SŁAWEK_DESC"
-	picture = "Walery_Slawek.dds"
-	expire = "1965.1.1"
-	ideology = centrism_conservative
-	traits = {
-		last_colonel
-	}
-}
-
-create_country_leader = {
-	name = "Tomasz Arciszewski"
-	desc = "POLITICS_TOMASZ_ARCISZEWSKI_DESC"
-	picture = "Portrait_Tomasz_Arciszewski.dds"
-	expire = "1965.1.1"
-	ideology = centrism_liberal
-	traits = {
-		national_liberator
+		democratic = 13
+		fascism = 7
+		communism = 2
+		neutrality = 78
 	}
 }
 
@@ -314,10 +203,9 @@ create_country_leader = {
 	desc = "POLITICS_WLADYSLAW_SIKORSKI_DESC"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = oligarchism
 	traits = {
-		patriotic_guerilla	
-		Freedom_Fighter_2
+		#
 	}
 }
 
@@ -326,55 +214,9 @@ create_country_leader = {
 	desc = "POLITICS_IGNACY_MOSCICKI_DESC"
 	picture = "Portrait_Poland_Ignacy_Moscicki.dds"
 	expire = "1965.1.1"
-	ideology = moderatism
+	ideology = oligarchism
 	traits = {
-		Oldest_Pilsudskite
-	}
-}
-
-#create_country_leader = { #Becomes leader in may with the event bs.727
-#	name = "Felicjan Sławoj Składkowski"
-#	desc = ""
-#	picture = "felicjan_slawoj_skladkowski.dds"
-#	expire = "1965.1.1"
-#	ideology = moderatism
-#	traits = {
-#		civilian_focused_administrator
-#	}
-#}
-
-create_country_leader = {
-	name = "Marian Zyndram-Kościałkowski"
-	desc = ""
-	picture = "marian_zyndram_kosciałkowski.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		Treasurer
-		sanation_left
-	}
-}
-
-create_country_leader = {
-	name = "Kazimierz Sosnkowski"
-	desc = "POLITICS_KAZIMIERZ_SOSNKOWSKI_DESC"
-	picture = "gfx/leaders/POL/Kazimierz_Sosnkowski.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	guerilla_warfare_expert
-	experienced_insurgent
-	}
-}
-create_country_leader = {
-	name = "Michał Rola-Żymierski"
-	desc = "POLITICS_MICHAL_ROLA_ZYMIERSKI_DESC"
-	picture = "gfx/leaders/POL/Michal_Rola_Zymierski.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-	guerilla_warfare_expert
-	experienced_insurgent
+		#
 	}
 }
 
@@ -385,56 +227,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
-		reluctant_stalinist
-		relucant_democratic_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Bolesław Bierut"
-	desc = "POLITICS_BOLESLAW_BIERUT_DESC"
-	picture = "bierut.dds"
-	expire = "1965.1.1"
-	ideology = stalinism
-	traits = {
-		staunch_stalinist
-		Communist_Lawyer
-	}
-}
-
-create_country_leader = {
-	name = "Maria Koszutska"
-	desc = "POLITICS_WLADYSLAW_GOMULKA_DESC"
-	picture = "koszutska.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	female = yes	
-	traits = {
-		anti_stalinist_marxist
-	}
-}
-
-create_country_leader = {
-	name = "Stefan Grot-Rowecki"
-	desc = "POLITICS_STEFAN_ROWECKI_DESC"
-	picture = "gfx/leaders/POL/Stefan_Rowecki.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	nationalist_symbol
-	determined_general
-	}
-}
-
-create_country_leader = {
-	name = "Władysław Raczkiewicz"
-	desc = "POLITICS_WLADYSLAW_RACZKIEWICZ_DESC"
-	picture = "gfx/leaders/POL/raczkiewicz.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-	democratic_restorationist
-	resistance_banker
+		#
 	}
 }
 
@@ -443,31 +236,9 @@ create_country_leader = {
 	desc = "POLITICS_WINCENTY_WITOS_DESC"
 	picture = "GFX_POL_wincenty_witos"
 	expire = "1965.1.1"
-	ideology = liberalism
-	traits = {
-		social_reformer
-	}
-}
-
-create_country_leader = {
-	name = "Walery Sławek"
-	desc = "POLITICS_WALERY_SŁAWEK_DESC"
-	picture = "Walery_Slawek.dds"
-	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
-		last_colonel
-	}
-}
-
-create_country_leader = {
-	name = "Stanisław Mikołajczyk"
-	desc = "POLITICS_WINCENTY_WITOS_DESC"
-	picture = "mikolajczyk.dds"
-	expire = "1965.1.1"
-	ideology = social_democracy
-	traits = {
-		peasant_leader
+		#
 	}
 }
 
@@ -478,41 +249,19 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = falangism
 	traits = {
-		eager_collaborator
-	}
-}	
-
-create_country_leader = {
-	name = "Edward Śmigły-Rydz"
-	desc = "POLITICS_BOLESLAW_PIASECKI_DESC"
-	picture = "rydz.dds"
-	expire = "1965.1.1"
-	ideology = falangism
-	traits = {
-		second_marshall
+		#
 	}
 }
 
 create_field_marshal = {
 	name = "Władysław Sikorski"
 	picture = "Portrait_Poland_Wladyslaw_Sikorski.dds"
-	traits = { defensive_doctrine unyielding_defender }
+	traits = { defensive_doctrine }
 	skill = 3
 	attack_skill = 2
 	defense_skill = 3
 	planning_skill = 2
 	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Edward Śmigły-Rydz"
-	picture = "rydz.dds"
-	traits = { offensive_doctrine aggressive_assaulter }
-	skill = 4
-	attack_skill = 6
-	defense_skill = 2
-	planning_skill = 5
-	logistics_skill = 4
 }
 
 create_field_marshal = {
@@ -568,267 +317,6 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Kazimierz Sosnkowski"
-	picture = "Kazimierz_Sosnkowski.dds"
-	traits = { old_guard brilliant_strategist organizer logistics_wizard organisational_leader }
-	id = 3130
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Juliusz Rómmel"
-	picture = "Juliusz_Rommel.dds"
-	traits = { old_guard war_hero cavalry_officer cavalry_leader cavalry_expert }
-	id = 3129
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Stefan Dąb-Biernacki"
-	picture = "Stefan_Dab_Biernacki.dds"
-	traits = { old_guard politically_connected harsh_leader substance_abuser }
-	id = 3132
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Tadeusz Piskor" #general otherwise
-	picture = "Tadeusz_Piskor.dds"
-	traits = { politically_connected trait_engineer }
-	id = 3133
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Kazimierz Fabrycy"
-	picture = "Kazimierz_Fabrycy.dds"
-	traits = { politically_connected }
-	id = 3150
-	skill = 1
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Antoni Szylling"
-	picture = "Antoni_Szylling.dds"
-	traits = { old_guard inflexible_strategist trait_cautious trickster }
-	id = 3167
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Tadeusz Kutrzeba"
-	picture = "Tadeusz_Kutrzeba.dds"
-	traits = { career_officer brilliant_strategist skilled_staffer trait_engineer }
-	id = 3168
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Władysław Bortnowski"
-	picture = "Wladyslaw_Bortnowski.dds"
-	traits = { politically_connected media_personality organizer }
-	id = 3131
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Emil Krukowicz-Przedrzymirski"
-	picture = "Emil_Krukowicz_Przedrzymirski.dds"
-	traits = { inflexible_strategist organizer }
-	id = 3148
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Wiktor Thommée"
-	picture = "Wiktor_Thommee.dds"
-	traits = { harsh_leader organizer commando }
-	id = 3138
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Franciszek Kleeberg"
-	picture = "Franciszek_Kleeberg.dds"
-	traits = { infantry_officer infantry_leader swamp_fox }
-	id = 3137
-	skill = 3
-	attack_skill = 3
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Stanisław Grzmot-Skotnicki"
-	picture = "Stanislaw_Grzmot_Skotnicki.dds"
-	traits = { war_hero cavalry_officer cavalry_leader }
-	id = 3139
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Władysław Anders"
-	picture = "Wladyslaw_Anders.dds"
-	traits = { war_hero cavalry_officer media_personality }
-	id = 3141
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Wilhelm Orlik-Rückemann"
-	picture = "Wilhelm_Orlik_Ruckemann.dds"
-	traits = { armor_officer commando }
-	id = 3140
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Mieczysław Boruta-Spiechowicz"
-	picture = "Mieczyslaw_Boruta_Spiechowicz_Portrait.dds"
-	traits = { trait_mountaineer }
-	id = 3147
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Walerian Czuma"
-	picture = "Walerian_Czuma.dds"
-	traits = { urban_assault_specialist }
-	id = 3143
-	skill = 2
-	attack_skill = 1
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Czesław Młot-Fijałkowski"
-	picture = "Czeslaw_Mlot_Fijalkowski.dds"
-	traits = { inflexible_strategist }
-	id = 3144
-	skill = 2
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Edmund Knoll-Kownacki"
-	picture = "Edmund_Knoll_Kownacki.dds"
-	traits = { trait_cautious infantry_officer }
-	id = 3149
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Gustaw Orlicz-Dreszer"
-	picture = "Gustaw_Orlicz_Dreszer.dds"
-	traits = { politically_connected media_personality cavalry_officer naval_liason }
-	id = 3127
-	skill = 1
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 1
-}
-
-create_navy_leader = {
-	name = "Józef Unrug"
-	picture = "Jozef_Unrug.dds"
-	traits = { navy_career_officer spotter mine_layer seawolf }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	maneuvering_skill = 4
-	coordination_skill = 4
-}
-
-create_navy_leader = {
-	name = "Adam Mohuczy"
-	picture = "Adam_Mohuczy.dds"
-	traits = { old_guard_navy seawolf lancer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	maneuvering_skill = 3
-	coordination_skill = 3
-}
-
-create_navy_leader = {
-	name = "Stanisław Hryniewiecki"
-	picture = "Stanislaw_Hryniewiecki.dds"
-	traits = { naval_lineage blockade_runner }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	maneuvering_skill = 4
-	coordination_skill = 3
 }
 
 if = {

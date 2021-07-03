@@ -74,24 +74,17 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
-set_politics = {
-	ruling_party = democratic
-	last_election = "1934.2.12"
-	election_frequency = 48
-	elections_allowed = yes
-}
-
-set_popularities = {	democratic = 55	communism = 25	neutrality = 20
+set_popularities = {	democratic = 33	communism = 33	neutrality = 34
 }
 
 create_country_leader = {
-	name = "Tunku Abdul Rahman"
+	name = "Onn Jaafar"
 	desc = ""
-	picture = "Portrait_Tunku_Abdul_Rahman.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_democracy.dds"
 	expire = "1953.3.1"
 	ideology = conservatism
 	traits = {
-	the_academic	
+		
 	}
 }
 
@@ -100,91 +93,32 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_malaya_shenton_thomas"
 	expire = "1953.3.1"
-	ideology = reactionary_conservatism
+	ideology = conservatism
 	traits = {
-	pacifist_governor	
+		
 	}
 }
 
 create_country_leader = {
-	name = "Tunku Abdul Rahman"
+	name = "Lai Teck"
 	desc = ""
-	picture = "Portrait_Tunku_Abdul_Rahman.dds"
-	expire = "1953.3.1"
-	ideology = moderatism
-	traits = {
-	the_academic	
-	}
-}
-
-create_country_leader = {
-	name = "Chin Peng"
-	desc = ""
-	picture = "Portrait_Chin_Peng.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
 	ideology = marxism
 	traits = {
-	freedom_fighter	
+		
 	}
 }
 
 create_country_leader = {
 	name = "Ibrahim Hj Yaacob" #this guy supported Japanese during the war, and was imprisoned for it, could be made fascist?
 	desc = ""
-	picture = "Portrait_Ibrahim_Yaacob.dds"
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = moderatism
 	traits = {
-	the_statist	
+		
 	}
-}
-
-create_corps_commander = {
-	name = "Adnan Saidi"
-	picture = "Portrait_Adnan_Saidi.dds"
-	traits = { infantry_officer guerilla_fighter  }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 6
-	planning_skill = 3
-	logistics_skill = 4
-	id = 1213
-}
-
-create_corps_commander = {
-	name = "Yeop Mahadin Shariff"
-	picture = "Portrait_Yeop_Mahidin_Shariff.dds"
-	traits = { infantry_officer }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 3
-	id = 1214
-}
-
-create_navy_leader = {
-	name = "Tom Phillips"
-	id = 1121
-	picture = "Portrait_Tom_Phillips.dds"
-	traits = {  }
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	maneuvering_skill = 1
-	coordination_skill = 2
-}
-
-create_navy_leader = {
-	name = "William Tennant"
-	id = 1122
-	picture = "Portrait_William_tennant.dds"
-	traits = {  }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	maneuvering_skill = 3
-	coordination_skill = 3
 }
 
 set_cosmetic_tag = MAL_UK # British Malaya

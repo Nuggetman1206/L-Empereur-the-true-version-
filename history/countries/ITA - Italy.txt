@@ -2,9 +2,6 @@
 
 oob = "ITA_1936"
 
-give_guarantee = SMR
-give_military_access = SMR
-	
 set_research_slots = 4
 set_stability = 0.6
 set_war_support = 0.7
@@ -14,7 +11,20 @@ add_ideas = {
 	limited_exports
 	limited_conscription
 	partial_economic_mobilisation
-	ITA_retarded_leadership
+}
+
+550 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 0
+	set_garrison_strength = 1.0
+}
+
+559 = {
+	start_resistance = yes
+	set_compliance = 10
+	set_resistance = 0
+	set_garrison_strength = 1.0
 }
 
 # Starting tech
@@ -111,14 +121,7 @@ if = {
 }
 
 1939.1.1 = {
-	set_autonomy = {
-		target = ALB
-		autonomous_state = autonomy_puppet
-	}
-	set_autonomy = {
-		target = ETH
-		autonomous_state = autonomy_puppet
-	}	
+
 	add_political_power = 1198
 	
 	#white_peace = ETH
@@ -226,17 +229,10 @@ if = {
 	}
 	
 	set_stability = 0.8
+	GER = { add_to_faction = ITA }
 }
 
 
-	821 = { set_state_flag = italy_can_core }
-	823 = { set_state_flag = italy_can_core }
-	1390 = { set_state_flag = italy_can_core }
-	1388 = { set_state_flag = italy_can_core }
-	1132 = { set_state_flag = italy_can_core }
-	735 = { set_state_flag = italy_can_core }
-	893 = { set_state_flag = italy_can_core }
-	
 set_convoys = 200
 
 set_politics = {
@@ -258,7 +254,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-	Il_Duce
+		
 	}
 }
 
@@ -269,19 +265,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-	liberal_journalist	
-	}
-}
-
-create_country_leader = {
-	name = "Alcide De Gasperi"
-	desc = ""
-	picture = "Alcide_De_Gasperi.dds"
-	expire = "1965.1.1"
-	ideology = social_conservatism
-	traits = {
-		conservative_grandee
-		social_reformer_2
+		
 	}
 }
 
@@ -290,9 +274,9 @@ create_country_leader = {
 	desc = "POLITICS_VICTOR_EMMANUEL_III_DESC"
 	picture = "GFX_portrait_italy_victor_emmanuel_iii"
 	expire = "1965.1.1"
-	ideology = constitutional_monarchism
+	ideology = despotism
 	traits = {
-    Little_King
+
 	}
 }
 
@@ -303,7 +287,7 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-	anti_fascist_agent	
+		
 	}
 }
 
@@ -331,7 +315,6 @@ create_field_marshal = {
 
 create_corps_commander = {
 	name = "Ugo Cavallero"
-	id = 7003
 	picture = "Portrait_Italy_Ugo_Cavallero.dds"
 	traits = {  old_guard trait_cautious career_officer }
 	skill = 2
@@ -367,7 +350,6 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Ubaldo Soddu"
-	id = 7004
 	picture = "Portrait_Italy_Ubaldo_Soddu.dds"
 	traits = { career_officer trait_cautious }
 	skill = 1
@@ -379,7 +361,6 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Italo Balbo"
-	id = 7005
 	picture = "portrait_italy_italo_balbo.dds"
 	traits = { career_officer politically_connected }
 	skill = 1
@@ -391,7 +372,6 @@ create_corps_commander = {
 
 create_field_marshal = {
 	name = "Rodolfo Graziani"
-	id = 7006
 	picture = "portrait_italy_radolfo_graziani.dds"
 	traits = { offensive_doctrine politically_connected trait_cautious }
 	skill = 2

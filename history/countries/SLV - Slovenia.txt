@@ -30,14 +30,3 @@ set_popularities = {
 	neutrality = 33
 	communism = 34
 }
-
-create_country_leader = {
-	name = "Marko Natlačen"
-	desc = ""
-	picture = "r56_Marko_Natlacen.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-		#
-	}
-}

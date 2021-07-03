@@ -1,4 +1,4 @@
-﻿capital = 1105
+﻿capital = 64
 
 oob = "GER_1936"
 
@@ -137,11 +137,6 @@ create_import = {
 	
 	set_autonomy = {
 		target = SLO
-		autonomous_state = autonomy_puppet
-	}
-	
-	set_autonomy = {
-		target = PBM
 		autonomous_state = autonomy_puppet
 	}
 	
@@ -310,7 +305,6 @@ create_faction = Axis
 add_to_faction = GER
 
 
-add_timed_idea = { idea = GER_random_buff days = 2400 }
 add_ideas = {
 	sour_loser
 	general_staff
@@ -323,36 +317,13 @@ add_ideas = GER_mefo_bills_1
 activate_mission = GER_mefo_bills_mission
 
 create_country_leader = {
-	name = "Hans Speidel"
-	desc = ""
-	picture = "gfx/leaders/GER/speidels.dds"
-	expire = "1965.1.1"
-	ideology = fascism_ideology
-	traits = {
-	retired_officer
-	}
-}
-
-create_country_leader = {
 	name = "Adolf Hitler"
 	desc = "POLITICS_ADOLF_HITLER_DESC"
-	picture = "Portrait_BS_Adolf_Hitler.dds"
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
-		Fuhrer
-		Military_Interference
-	}
-}
-
-create_country_leader = {
-	name = "Carl Friedrich Goerdeler"
-	desc = "POLITICS_CARL_FRIEDRICH_GOERDELER_DESC"
-	picture = "gfx/leaders/GER/Goerdeler.dds"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-	conservative_kanzler
+		dictator
 	}
 }
 
@@ -361,84 +332,27 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservatism
 	traits = {
-	economist
-	}
-}
-
-create_country_leader = {
-	name = "Carl Friedrich Goerdeler"
-	desc = "POLITICS_CARL_FRIEDRICH_GOERDELER_DESC"
-	picture = "gfx/leaders/GER/Goerdeler.dds"
-	expire = "1965.1.1"
-	ideology = oligarchism
-	traits = {
-	conservative_kanzler
-	}
-}
-
-create_country_leader = {
-	name = "Ludwig Beck"
-	desc = "POLITICS_LUDWIG_BECK_DESC"
-	picture = "r56_Ludwig_Beck.dds"
-	expire = "1965.1.1"
-	ideology = moderatism
-	traits = {
-	liberal_general
-	}
-}
-
-create_country_leader = {
-	name = "Franz von Papen"
-	desc = ""
-	picture = "Franz_von_Papen.dds"
-	expire = "1965.1.1"
-	ideology = despotism
-	traits = {
-		Autocratic_Diplomat
-		fascist_sympathies
 	}
 }
 
 create_country_leader = {
 	name = "Wilhelm Pieck"
-	desc = ""
+	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-	expire = "1956.1.1"
+	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		Staunch_stalinist_2
-	}
-}
-
-create_country_leader = {
-	name = "Otto Grotewohl"
-	desc = ""
-	picture = "grotewohl.dds"
-	expire = "1956.1.1"
-	ideology = stalinism
-	traits = {
-		Staunch_stalinist_2
-	}
-}
-
-create_country_leader = {
-	name = "Ernst Thälmann"
-	desc = ""
-	picture = "Ernst_Thalmann.dds"
-	expire = "1956.1.1"
-	ideology = stalinism
-	traits = {
-		Staunch_stalinist_2
-		veteran_communist
+		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
+		exiled # He left in 1933 so he should still be exiled
 	}
 }
 
 #create_country_leader = {
 #	name = "Otto Wels"
 #	desc = "POLITICS_OTTO_WELS_DESC"
-#	picture = "Portrait_BS_Adolf_Hitler.dds"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1939.1.16"
 #	ideology = socialism
 #	traits = {
@@ -450,26 +364,13 @@ create_country_leader = {
 #create_country_leader = {
 #	name = "Ernst Thälmann"
 #	desc = "POLITICS_ERNST_THALMANN_DESC"
-#	picture = "Ernst_Thalmann.dds"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
 #	expire = "1956.1.1"
 #	ideology = stalinism
 #	traits = {
 #		assassination_survivor
 #		stalins_puppet
 #		political_prisoner
-#	}
-#}
-
-#create_country_leader = {
-#	name = "Wilhelm Pieck"
-#	desc = "POLITICS_WILHELM_PIECK_DESC"
-#	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
-#	expire = "1965.1.1"
-#	ideology = stalinism
-#	traits = {
-#		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
-#		exiled # He left in 1933 so he should still be exiled
-#		Staunch_stalinist_2
 #	}
 #}
 
@@ -500,17 +401,6 @@ create_field_marshal = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Wilhelm Keitel"
-	picture = "Portrait_Germany_Wilhelm_Keitel.dds"
-	traits = { politically_connected infantry_officer }
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 1
 }
 
 create_corps_commander = {
@@ -586,7 +476,7 @@ create_corps_commander = {
 	logistics_skill = 2
 }
 
-create_field_marshal = {
+create_corps_commander = {
 	name = "Fedor von Bock"
 	picture = "Portrait_Germany_Fedor_von_Bock.dds"
 	traits = { harsh_leader trait_cautious }
@@ -598,22 +488,10 @@ create_field_marshal = {
 	logistics_skill = 2
 }
 
-create_corps_commander = {
-	name = "Ferdinand Schörner"
-	picture = "r56_Ferdinand_Schorner.dds"
-	traits = { brilliant_strategist infantry_officer harsh_leader }
-	skill = 4
-	id = 7001
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
+create_field_marshal = {
 	name = "Walter Model"
 	picture = "Portrait_Germany_Walter_Model.dds"
-	traits = { brilliant_strategist trait_cautious politically_connected }
+	traits = { defensive_doctrine brilliant_strategist trait_cautious politically_connected }
 	skill = 3
 	id = 10
 	attack_skill = 2
