@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = PRE
 		victory_points = {
 			9347 20 
 		}
@@ -17,7 +17,7 @@ state={
 			industrial_complex = 1
 			dockyard = 2
 			9347 = {
-				naval_base = 1
+				naval_base = 2
 
 			}
 

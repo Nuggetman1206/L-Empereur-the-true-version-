@@ -3,7 +3,7 @@ state={
 	name="STATE_878"
 
 	history={
-		owner = YUG
+		owner = ALB
 		victory_points = {
 			6953 1 
 		}
@@ -17,7 +17,7 @@ state={
 		add_core_of = YUG
 		add_core_of = SER
 		add_core_of = KOS
-
+                add_core_of = ALB
 	}
 
 	provinces={

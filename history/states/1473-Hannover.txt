@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GER
+		owner = PRE
 		victory_points = {
 			3326 5 
 		}
@@ -15,8 +15,8 @@ state={
 			6377 10 
 		}
 		buildings = {
-			infrastructure = 7
-			arms_factory = 2
+			infrastructure = 6
+			arms_factory = 3
 			industrial_complex = 2
 			dockyard = 1
 			6325 = {

@@ -3,7 +3,7 @@ state={	#MagdeburgAnhalt
 	name="STATE_793"
 
 	history={
-		owner = GER
+		owner = PRE
 		victory_points = {
 			3522 5 
 		}

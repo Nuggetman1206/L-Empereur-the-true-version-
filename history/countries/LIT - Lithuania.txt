@@ -70,55 +70,95 @@ set_convoys = 10
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1926.5.8"
-	election_frequency = 120
+	last_election = "1932.5.10"
+	election_frequency = 49
 	elections_allowed = no
 }
 set_popularities = {
-	democratic = 30
-	fascism = 15
-	communism = 15
-	neutrality = 40
+	democratic = 10
+	fascism = 8
+	communism = 12
+	neutrality = 70
 }
 
 1939.1.1 = {
 	set_politics = {
 		ruling_party = neutrality
-		last_election = "1936.6.10"
-		election_frequency = 120
+		last_election = "1936.6.14"
+		election_frequency = 49
 		elections_allowed = no
 	}
 }
 
+
+	1375 = { set_state_flag = lithuania_can_core }
+	1205 = { set_state_flag = lithuania_can_core }
+	1383 = { set_state_flag = lithuania_can_core }
+	1432 = { set_state_flag = lithuania_can_core }
+	1416 = { set_state_flag = lithuania_can_core }
+	1417 = { set_state_flag = lithuania_can_core }
+	997 = { set_state_flag = lithuania_can_core }
+	1441 = { set_state_flag = lithuania_can_core }
+	933 = { set_state_flag = lithuania_can_core }
+	1442 = { set_state_flag = lithuania_can_core }
+	1192 = { set_state_flag = lithuania_can_core }
+	97 = { set_state_flag = lithuania_can_core }
+	1440 = { set_state_flag = lithuania_can_core }
+	
 create_country_leader = {
-	name = "Antanas Smetona"
+	name = "Frederick Viktor"
 	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "GFX_Portrait_lithuania_antanas_smetona"
+	picture = "dehman.dds"
 	expire = "1965.1.1"
 	ideology = oligarchism
 	traits = {
-		#
+	stern_autocrat
+	nazi_hunter
 	}
 }
 
 create_country_leader = {
-	name = "Antanas Snieckus"
+	name = "Frederick Viktor"
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+	picture = "dehman.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
 	traits = {
-		#
+		Agent
 	}
 }
 
 create_country_leader = {
 	name = "Augustinas Voldemaras"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "r56_augustinas_voldemaras.dds"
 	expire = "1965.1.1"
 	ideology = fascism_ideology
 	traits = {
-		#
+		Brilliant_Orator
+	}
+}
+
+create_country_leader = {
+	name = "Kazys Grinius"
+	desc = ""
+	picture = "r56_Kazys_Grinius.dds"
+	expire = "1965.1.1"
+	ideology = socialism
+	traits = {
+	peasant_leader
+	social_reformer	
+	}
+}
+
+create_country_leader = {
+	name = "Aleksandras Stulginskis"
+	desc = ""
+	picture = "Aleksandras_Stulginskis.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	traits = {
+	christian_democrat
+	assiduous_democratiser	
 	}
 }

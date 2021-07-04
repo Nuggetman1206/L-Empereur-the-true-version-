@@ -6,7 +6,7 @@ state={
 	}
 	
 	history={
-		owner = GER
+		owner = PRE
 		buildings = {
 			infrastructure = 7
 			arms_factory = 1
@@ -16,6 +16,7 @@ state={
 		add_core_of = GER
 		add_core_of = SAX
 		add_core_of = LUS
+                add_core_of = PRE
 		1939.1.1 = {
 			buildings = {
 				synthetic_refinery = 1

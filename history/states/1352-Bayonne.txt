@@ -4,12 +4,13 @@ state={
 	name="STATE_1352"
 
 	history={
-		owner = FRA
+		owner = NAV
 		victory_points = {
 			743 1
 		}		
 		buildings = {
 			infrastructure = 8
+                        industrial_complex = 2
 
 		}
 		add_core_of = FRA

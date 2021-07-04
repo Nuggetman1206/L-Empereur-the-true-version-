@@ -4,7 +4,7 @@ state={
 	name="STATE_55"
 
 	history={
-		owner = GER
+		owner = RHI
 		buildings = {
 			infrastructure = 7
 			industrial_complex = 1
@@ -15,6 +15,7 @@ state={
 		}
 		add_core_of = GER
 		add_core_of = PRE
+                add_core_of = RHI
 		1939.1.1 = {
 			buildings = {
 				air_base = 3

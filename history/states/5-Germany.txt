@@ -4,10 +4,10 @@ state={
 	name="STATE_5"
 
 	history={
-		owner = GER
-		controller = GER
+		owner = PRE
+		controller = PRE
 		buildings = {
-			infrastructure = 7
+			infrastructure = 6
 
 		}
 		add_core_of = GER

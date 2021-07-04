@@ -7,7 +7,7 @@ state={
 		victory_points = {
 			11697 1
 		}	
-		owner = FRA
+		owner = NAV
 		buildings = {
 			infrastructure = 10
 		}
@@ -20,7 +20,7 @@ state={
 	provinces={
 		11697
 	}
-	manpower=261000
+	manpower=501000
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

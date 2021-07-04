@@ -4,7 +4,7 @@ state={
 	name="STATE_56"
 
 	history={
-		owner = GER
+		owner = RHI
 		victory_points = {
 			241 5 
 		}
@@ -26,9 +26,10 @@ state={
 		add_core_of = GER
 		add_core_of = PRE
 		add_core_of = HAN
+                add_core_of = RHI
 		1939.1.1 = {
 			buildings = {
-				industrial_complex = 4
+				industrial_complex = 3
 				dockyard = 3
 
 			}
