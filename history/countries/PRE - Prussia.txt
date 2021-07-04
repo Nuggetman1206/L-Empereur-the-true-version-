@@ -130,8 +130,6 @@ set_popularities = {
 	communism = 10
 }
 
-add_ideas = {
-}
 
 create_country_leader = {
 	name = "Hermann Göring"
@@ -150,9 +148,6 @@ create_country_leader = {
 	picture = "Portrait_Prussia_Gustav.dds"
 	expire = "1965.1.1"
 	ideology = social_democracy
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
@@ -161,9 +156,6 @@ create_country_leader = {
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"
 	ideology = stalinism
-	traits = {
-		
-	}
 }
 
 create_country_leader = {
